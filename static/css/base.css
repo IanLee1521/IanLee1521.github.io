@@ -1,3 +1,10 @@
+/* Color Picker: http://paletton.com/#uid=3380u0khDdXb5nudViwmabrrg7M */
+
+body {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 0.875em;
+}
+
 header, nav, section, article, footer {
     border:1px solid grey;
     margin:5px;
