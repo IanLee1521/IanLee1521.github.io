@@ -33,11 +33,16 @@ nav ul li {
 }
 
 .resume section {
-    width: 75%;
-    margin: 0.25em auto;
     border-radius: 15px;
+    margin: 0.25em auto;
+    width: 75%;
 }
 
 .resume h2 {
     text-align: center;
+}
+
+.resume h4 {
+    font-size: 0.875em;
+    font-style: italic;
 }
