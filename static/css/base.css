@@ -32,12 +32,12 @@ nav ul li {
     margin:5px;
 }
 
-section.resume_block {
+.resume section {
     width: 75%;
     margin: 0.25em auto;
     border-radius: 15px;
 }
 
-.resume_block h2 {
+.resume h2 {
     text-align: center;
 }
