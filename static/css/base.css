@@ -6,34 +6,38 @@ body {
 }
 
 header, nav, section, article, footer {
-    border:1px solid grey;
-    margin:5px;
-    padding:8px;
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 8px;
 }
 header, nav, footer {
-    text-align:center;
+    text-align: center;
 }
 
 nav {
     background-color: darkgray;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 2px;
     margin: auto;
     width: 50%;
 }
 
 nav ul {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display:inline;
-    margin:5px;
+    display: inline;
+    margin: 5px;
 }
 
-.resume section {
-    border-radius: 15px;
+#page {
+  margin: 0 100px;
+}
+
+.resume section, .resume footer {
+    border-radius: 10px;
     margin: 0.25em auto;
     width: 75%;
 }
