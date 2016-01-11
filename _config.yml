@@ -1,0 +1,22 @@
+# Basic
+name: Ian Lee
+author: Ian Lee
+title: Ian Lee
+url: "http://ianlee1521.com"
+
+# Images
+logo: assets/img/headshot.png
+
+social:
+  name: Ian Lee
+  links:
+    - https://twitter.com/IanLee1521
+    - https://www.linkedin.com/in/ianlee1521
+    - https://github.com/IanLee1521
+
+# Build Config
+highlighter: pygments
+markdown: kramdown
+timezone: America/Los_Angeles
+encodign: UTF-8
+branch: master
