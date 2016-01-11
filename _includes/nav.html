@@ -1,0 +1,13 @@
+{% if site.github.url %}
+  {% assign url_base = site.github.url %}
+{% else %}
+  {% assign url_base = site.url %}
+{% endif %}
+
+<nav class="navbar navbar-default" role="navigation">
+  <ul class="navbar navbar-nav">
+    <li><a href="about">About Me</a></li>
+    <li><a href="resume">Resume</a></li>
+    <li><a href="contact">Contact</a></li>
+  </ul>
+</nav>
