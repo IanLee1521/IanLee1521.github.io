@@ -32,7 +32,7 @@ efficiency, making me an asset to any team or development task.
 
 University of California - Santa Cruz, Santa Cruz, CA
 
-Thesis: (Dynamic Instruction Fusion)[https://escholarship.org/uc/item/41x2x382]
+Thesis: [Dynamic Instruction Fusion](https://escholarship.org/uc/item/41x2x382)
 
 ### Bachelors of Science in Engineering in Computer Engineering, June 2009
 
@@ -106,18 +106,18 @@ University of Connecticut, Storrs, CT
 
 ### Technical Reports
 
-* R. Cook, E. Dube, <strong>I. Lee</strong>, L. Nau, C. Sherada, and F. Wang, <a href="https://codesign.llnl.gov/pdfs/ExascaleProgrammingModelSurvey2011.pdf"><em>Survey of Novel Programming Models for Parallelizing Applications at Exascale</em></a>, LLNL-TR-515971, Lawrence Livermore National Laboratory, November 2011
+* R. Cook, E. Dube, **I. Lee**, L. Nau, C. Sherada, and F. Wang, <a href="https://codesign.llnl.gov/pdfs/ExascaleProgrammingModelSurvey2011.pdf">*Survey of Novel Programming Models for Parallelizing Applications at Exascale*</a>, LLNL-TR-515971, Lawrence Livermore National Laboratory, November 2011
 
 ### Presentations
-* <strong>I. Lee</strong>, <em>Git Tutorial: Managing Workflows</em>, Software Improvement Networking Group, Lawrence Livermore National Laboratory, January 2014
-* <strong>I. Lee</strong>, <em>Git Tutorial Series Part III: Merging & Workflows</em>, Software Improvement Networking Group, Lawrence Livermore National Laboratory, November 2013
-* <strong>I. Lee</strong>, <em>Git / Stash</em>, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2013
-* <strong>I. Lee</strong>, <em>Stash Administration</em>, Atlassian Administrators Meeting, Lawrence Livermore National Laboratory, August 2014
+* **I. Lee**, *Git Tutorial: Managing Workflows*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, January 2014
+* **I. Lee**, *Git Tutorial Series Part III: Merging & Workflows*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, November 2013
+* **I. Lee**, *Git / Stash*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2013
+* **I. Lee**, *Stash Administration*, Atlassian Administrators Meeting, Lawrence Livermore National Laboratory, August 2014
 
 ### Posters
-* <strong>I. Lee</strong> and P. Top, <em>Real Time Video Tracking on CUDA-Accelerated GPUs</em>, Lawrence Livermore National Laboratory, Summer Student Poster Symposium, Livermore, CA, August 2010
-* <strong>I. Lee</strong>, <em>Pixel Based Lithography on NVIDIA GPUs</em>, ACM Student Research Competition, Design Automation Conference (DAC 2010), Anaheim, CA, June 2010
-* <strong>I. Lee</strong>, J. Renau, and J.Mahai, <a href="https://surf-it.soe.ucsc.edu/node/82"><em>Making the Most of your Hardware: Micro-Benchmarks on NVIDIA GPUs</em></a>, SURF-IT Poster Presentation, University of California - Santa Cruz, Santa Cruz, CA, August 2008
+* **I. Lee** and P. Top, *Real Time Video Tracking on CUDA-Accelerated GPUs*, Lawrence Livermore National Laboratory, Summer Student Poster Symposium, Livermore, CA, August 2010
+* **I. Lee**, *Pixel Based Lithography on NVIDIA GPUs*, ACM Student Research Competition, Design Automation Conference (DAC 2010), Anaheim, CA, June 2010
+* **I. Lee**, J. Renau, and J.Mahai, <a href="https://surf-it.soe.ucsc.edu/node/82">*Making the Most of your Hardware: Micro-Benchmarks on NVIDIA GPUs*</a>, SURF-IT Poster Presentation, University of California - Santa Cruz, Santa Cruz, CA, August 2008
 
 ## Professional Activities
 
