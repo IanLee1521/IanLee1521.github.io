@@ -131,6 +131,12 @@ University of Connecticut, Storrs, CT
 
 ## Technical Ability
 
+### Open Source Development Projects
+
+{% for repo in site.github.repositories %}
+* {{ repo.title }} -- {{ repo }}
+{% endfor %}
+
 ### Programming Languages
 
 * Python
