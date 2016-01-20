@@ -9,6 +9,7 @@ logo: assets/img/headshot.png
 
 exclude:
   - CNAME
+  - README.md
 
 social:
   name: Ian Lee
