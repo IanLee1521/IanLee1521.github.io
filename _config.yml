@@ -7,6 +7,9 @@ url: "http://ianlee1521.com"
 # Images
 logo: assets/img/headshot.png
 
+exclude:
+  - CNAME
+
 social:
   name: Ian Lee
   links:
