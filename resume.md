@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: Ian Lee - Resume
 layout: default
 permalink: /resume/
 ---
