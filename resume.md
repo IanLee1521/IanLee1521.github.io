@@ -133,11 +133,17 @@ University of Connecticut, Storrs, CT
 
 ### Open Source Development Projects
 
+<ul>
 {% for repository in site.github.public_repositories %}
 {% if repository.fork == false %}
-* [{{ repository.name }}]({{ repository.html_url }})
+  <li>
+    <a href="{{ repository.html_url }}">{{ repository.name }}</a>
+    <span class="fa fa-code-fork"></span> {{ repository.forks_count }}
+    <span class="fa fa-star"></span> {{ repository.stargazers_count }}
+  </li>
 {% endif %}
 {% endfor %}
+</ul>
 
 ### Programming Languages
 
