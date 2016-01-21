@@ -11,6 +11,10 @@ exclude:
   - CNAME
   - README.md
 
+# GitHub Metadata -- https://github.com/jekyll/github-metadata
+repository: ianlee1521/ianlee1521.github.io
+gems: ['jekyll-github-metadata']
+
 social:
   name: Ian Lee
   links:
