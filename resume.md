@@ -28,13 +28,13 @@ efficiency, making me an asset to any team or development task.
 
 ## Education
 
-### Masters of Science in Computer Engineering, October 2012
+### Masters of Science in Computer Engineering, <small>October 2012</small>
 
 University of California - Santa Cruz, Santa Cruz, CA
 
 Thesis: [Dynamic Instruction Fusion](https://escholarship.org/uc/item/41x2x382)
 
-### Bachelors of Science in Engineering in Computer Engineering, June 2009
+### Bachelors of Science in Engineering in Computer Engineering, <small>June 2009</small>
 
 University of Connecticut, Storrs, CT
 
@@ -42,7 +42,7 @@ University of Connecticut, Storrs, CT
 
 ### Lawrence Livermore National Laboratory
 
-#### Computer Engineer, Persistics, October 2012 - Present
+#### Computer Engineer, Persistics, <small>October 2012 - Present</small>
 
 * Proposed and led effort to move custom analytic tools into cloud based
   SaaS architecture to allow migration away from stove-piped solutions
@@ -53,7 +53,7 @@ University of Connecticut, Storrs, CT
 * Led redesign of code base (~ 0.5 million LOC) from custom build script
   over to CMake while reducing the complexity of the code in the process.
 
-#### Administrator, Atlassian Suite, May 2013 - Present
+#### Administrator, Atlassian Suite, <small>May 2013 - Present</small>
 
 * Volunteered to lead administration and advocacy for institutional
   instance of Atlassian tool suite supporting Engineering and Global
@@ -61,27 +61,27 @@ University of Connecticut, Storrs, CT
 * Made several presentations on technologies including Git, Stash, and
   workflow management to laboratory personel
 
-#### Summer Intern, Persistics, June 2012 - October 2012
+#### Summer Intern, Persistics, <small>June 2012 - October 2012</small>
 
 * Supported the Persistics project with development and optimization of
   CUDA kernels for both new and existing code.
 * Led optimization of image processing pipeline from Fermi to Kepler
   GPU’s to support real time processing requirements.
 
-#### Summer Intern, Engineering Technology Division, June 2011 - September 2011
+#### Summer Intern, Engineering Technology Division, <small>June 2011 - September 2011</small>
 
 * Surveyed CUDA, Fortress, and Charm++ parallel programming languages for
   their suitability for exascale computing at Lawrence Livermore National
   Laboratory.
 
-#### Summer Intern, Engineering Technology Division, June 2010 - September 2010
+#### Summer Intern, Engineering Technology Division, <small>June 2010 - September 2010</small>
 
 * Worked extensively with CUDA technology to develop benchmarking and stress testing applications in support of the JIEDDO project.
 * Developed a real time tracking application for tracking and identifying target position, orientation, and velocity, with CUDA enabled acceleration.
 
 ### University of California - Santa Cruz
 
-#### Teaching Assistant, September 2009 - June 2012
+#### Teaching Assistant, September <small>2009 - June 2012</small>
 
 * Computer Networking (Fall 2009, Spring 2010)
 * Computer Systems & Assembly (Winter 2010, Fall 2010, Winter 2011)
@@ -89,7 +89,7 @@ University of Connecticut, Storrs, CT
 
 ### Bentley Systems, Inc
 
-#### Summer Intern, Applied Research Division, May 2009 - September 2009
+#### Summer Intern, Applied Research Division, <small>May 2009 - September 2009</small>
 
 * Developed parallel computing application for water modeling software.
 * Established test procedures to evaluate performance and feasibility of test model.
@@ -97,7 +97,7 @@ University of Connecticut, Storrs, CT
 
 ### University of California - Santa Cruz
 
-#### Undergraduate Researcher, NSF SURF-IT, June 2008 - August 2008
+#### Undergraduate Researcher, NSF SURF-IT, <small>June 2008 - August 2008</small>
 
 * Developed tools for benchmarking the parallel computational performance of NVIDIA Graphical Processing Units, using NVIDIA CUDA technology.
 * Benchmarks designed and implemented without a provided framework.
