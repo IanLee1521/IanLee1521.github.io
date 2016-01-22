@@ -132,7 +132,11 @@ University of Connecticut, Storrs, CT
 
 ## Technical Ability
 
-### Open Source Development Projects
+### Open Source Project Contributions
+
+* Lead / Co Maintainer: pep8, fastkml, pygeoif
+* GitHub: https://github.com/IanLee1521
+* BitBucket: https://bitbucket.org/IanLee1521
 
 <ul>
 {% for repository in site.github.public_repositories %}
@@ -146,23 +150,14 @@ University of Connecticut, Storrs, CT
 {% endfor %}
 </ul>
 
-### Programming Languages
+### Programming Languages & Development Libraries
 
-* Python
-* C/C++
-* CUDA
+* Python, C / C++, Bash
+* Django, Git, Slurm, OpenCV, MPI, PostgreSQL
 
-### Development Libraries / Tools
+### Software Development Environments / Tools
 
-* Git
-* Atlassian (Confluence, Jira, Stash) Administration
-* Django Web Framework
-* OpenCV
-* OpenMPI
+* Mac OSX, Debian, RedHat, Sublime Text, ViM, GCC, CMake
+* Atlassian (Confluence, Jira, Stash, Crowd)
+* Jenkins, Travis-CI
 
-### Software Development Environments
-
-* Linux Mint, Ubuntu, RedHat, CentOS
-* Sublime Text, ViM
-* Python Packaging Tools (pip, setuptools)
-* CMake, GCC
