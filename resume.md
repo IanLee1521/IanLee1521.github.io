@@ -127,6 +127,7 @@ University of Connecticut, Storrs, CT
 
 ### Awards
 
+* Director's Institutional Operational Excellence, Lawrence Livermore National Laboratory, 2015
 * Excellence in Teaching, University of California - Santa Cruz, 2012 - 2013
 
 ## Technical Ability
