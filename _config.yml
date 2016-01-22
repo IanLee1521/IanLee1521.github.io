@@ -11,6 +11,9 @@ exclude:
   - CNAME
   - README.md
 
+google_analytics:
+  tracking_id: UA-72759126-1
+
 # GitHub Metadata -- https://github.com/jekyll/github-metadata
 repository: ianlee1521/ianlee1521.github.io
 gems: ['jekyll-github-metadata']
