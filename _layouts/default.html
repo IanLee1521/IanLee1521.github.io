@@ -1,5 +1,32 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="/assets/css/style.css" rel="stylesheet" media="screen">
+  <link href="/assets/vendor/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+  {% include google_analytics.html %}
+</head>
+
+<body class="{{ page.layout }}">
+
+<div class="container">
+
+    {% include nav.html %}
+
+    <div class="content" id="content" role="main">
 
 {{ content }}
 
-{% include footer.html %}
+  </div><!-- content -->
+</div><!-- container -->
+
+{% include scripts.html %}
+
+</body>
+</html>
