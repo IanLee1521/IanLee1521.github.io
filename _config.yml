@@ -3,21 +3,30 @@ name: Ian Lee
 author: Ian Lee
 author_email: IanLee1521@gmail.com
 title: Ian Lee
+description: "Explorer, Collaborator, and Open Source Evangelist"
 url: "http://ianlee1521.com"
 
 # Images
+gravatar_id: c416a04a16b233e65afd993815c167dd
 logo: assets/img/headshot.png
 
 exclude:
   - CNAME
   - README.md
 
+location:
+  city: Livermore
+  state: California
+  country: United States of America
+
 google_analytics:
   tracking_id: UA-72759126-1
 
 # GitHub Metadata -- https://github.com/jekyll/github-metadata
 repository: ianlee1521/ianlee1521.github.io
-gems: ['jekyll-github-metadata']
+gems:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
 
 social:
   name: Ian Lee
