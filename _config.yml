@@ -8,7 +8,7 @@ url: "http://ianlee1521.com"
 
 # Images
 gravatar_id: c416a04a16b233e65afd993815c167dd
-logo: assets/img/headshot.png
+logo: /assets/img/headshot.jpg
 
 exclude:
   - CNAME
