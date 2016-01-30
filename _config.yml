@@ -1,6 +1,7 @@
 # Basic
 name: Ian Lee
 author: Ian Lee
+author_email: IanLee1521@gmail.com
 title: Ian Lee
 url: "http://ianlee1521.com"
 
@@ -21,10 +22,6 @@ gems: ['jekyll-github-metadata']
 social:
   name: Ian Lee
   handle: IanLee1521
-  links:
-    - https://twitter.com/IanLee1521
-    - https://www.linkedin.com/in/ianlee1521
-    - https://github.com/IanLee1521
 
 # Build Config
 highlighter: pygments
