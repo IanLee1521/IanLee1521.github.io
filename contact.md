@@ -6,8 +6,7 @@ layout: default
 
 # Contact Me
 
-You can contact Ian at:
-
-* IanLee1521@gmail.com
+{: .center }
+If you have any questions about open source development, particularly in the context of government, or just questions in general, feel free to reach out via any of the following methods and social networks:
 
 {% include contact-links.html %}
