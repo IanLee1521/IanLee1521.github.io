@@ -9,3 +9,5 @@ layout: default
 You can contact Ian at:
 
 * IanLee1521@gmail.com
+
+{% include social-media-links.html %}

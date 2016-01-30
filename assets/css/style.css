@@ -5,3 +5,11 @@ body {
 
 .top-buffer { margin-top: 20px; }
 .bottom-buffer { margin-bottom: 20px; }
+
+/* Contact social icons */
+#contact-links {list-style: none; text-align: center; font-size: 8pt; line-height: 14px; margin-top: 20px; padding-left: 0;}
+#contact-links a, #contact-links a:visited {color: #999; text-decoration: none;}
+#contact-links li {display: inline-block; padding: 0 15px 0 15px; text-align: center; margin-left: auto; margin-right: auto; line-height: 10px;}
+#contact-links i { display: block; width: 30px; height: 40px; }
+.center { text-align: center }
+.pgp-key { font-size: 85%; }
