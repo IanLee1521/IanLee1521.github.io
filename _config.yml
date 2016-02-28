@@ -33,8 +33,6 @@ social:
   handle: IanLee1521
 
 # Build Config
-highlighter: pygments
-markdown: kramdown
 timezone: America/Los_Angeles
 encodign: UTF-8
 branch: master
