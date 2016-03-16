@@ -42,7 +42,15 @@ University of Connecticut, Storrs, CT
 
 ### Lawrence Livermore National Laboratory
 
-#### Computer Engineer, Persistics, <small>October 2012 - Present</small>
+#### Computer Engineer, Livermore Computing, <small>November 2015 - Present</small>
+
+* Principal Investigator on building the Open Source Software community
+  at LLNL:
+  * Social media agent in charge of [@LLNL_OpenSource on Twitter](https://twitter.com/llnl_opensource).
+  * Webmaster for [LLNL Software Catalog](http://software.llnl.gov).
+  * Administrator for [LLNL GitHub Organization](https://github.com/llnl).
+
+#### Computer Engineer, Persistics, <small>October 2012 - November 2015</small>
 
 * Proposed and led effort to move custom analytic tools into cloud based
   SaaS architecture to allow migration away from stove-piped solutions
