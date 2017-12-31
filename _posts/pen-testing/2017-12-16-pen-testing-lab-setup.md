@@ -180,3 +180,15 @@ root@kali:~# vim ~/.ssh/authorized_keys
 Well, at this point I've decided that I've down enough typing and setting up, and I'm going to go ahead and jump right in to the 2017 SANS Holiday Hack Challenge, and try my luck against the giant snowballs invading the north pole!
 
 https://www.holidayhackchallenge.com
+
+
+## Edit (2017-12-29): Enabling the Database
+
+I noticed in pretty short order that the database in Kali isn't running by default and needs to be enabled manually. I found the instructions for doing so at: https://docs.kali.org/general-use/starting-metasploit-framework-in-kali
+
+Which amount to:
+
+```
+root@kali:~# service postgresql start
+root@kali:~# msfdb init
+```
