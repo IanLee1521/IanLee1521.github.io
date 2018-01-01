@@ -387,6 +387,134 @@ root@kali:~# ssh alabaster_snowball@35.185.84.51
 
 That landed me in the same restricted bash shell as before breaking for Christmas.
 
+## Investigating the SMB Shares
+
+For question #3 in the Hack challenge, it is necessary to identify the share name for the SMB server on the internal 10.142.0.0/24 network. To do so, I was able to execute `nmap` from the Letters 2 Santa server to explore the internal network:
+
+```
+alabaster_snowball@l2s:/tmp/asnow.sguTJiwVWkeIi9gccIcaJSNU$ nmap -PS445 10.142.0.0/24 -p 445
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-12-31 23:02 UTC
+Nmap scan report for hhc17-l2s-proxy.c.holidayhack2017.internal (10.142.0.2)
+Host is up (0.00022s latency).
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+
+Nmap scan report for hhc17-apache-struts1.c.holidayhack2017.internal (10.142.0.3)
+Host is up (0.0010s latency).
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+
+Nmap scan report for mail.northpolechristmastown.com (10.142.0.5)
+Host is up (0.00092s latency).
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+
+Nmap scan report for edb.northpolechristmastown.com (10.142.0.6)
+Host is up (0.00018s latency).
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+
+Nmap scan report for hhc17-smb-server.c.holidayhack2017.internal (10.142.0.7)
+Host is up (0.00098s latency).
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+Nmap scan report for hhc17-emi.c.holidayhack2017.internal (10.142.0.8)
+Host is up (0.00090s latency).
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+Nmap scan report for hhc17-apache-struts2.c.holidayhack2017.internal (10.142.0.11)
+Host is up (0.000040s latency).
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 1.85 seconds
+```
+
+This identified two servers of the 7 hosts where SMB (port 445) was running. Those servers were:
+
+- `10.142.0.7` - hhc17-smb-server.c.holidayhack2017.internal
+- `10.142.0.8` - hhc17-emi.c.holidayhack2017.internal
+
+Now that I had identified the SMB servers, I was able to use SSH port forwarding to forward a connection from my local host out to the SMB server with:
+
+```
+root@kali:~# ssh -L 445:10.142.0.7:445 alabaster_snowball@35.185.84.51
+```
+
+In a separate window, I was then able to connect to that SMB host with the following command, and identity the Sharename as "FileStor":
+
+```
+root@kali:~# smbclient -L localhost -p 445 -U alabaster_snowball
+WARNING: The "syslog" option is deprecated
+Enter WORKGROUP\alabaster_snowball's password:
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+	FileStor        Disk      
+	IPC$            IPC       Remote IPC
+Reconnecting with SMB1 for workgroup listing.
+Connection to localhost failed (Error NT_STATUS_CONNECTION_REFUSED)
+Failed to connect with SMB1 -- no workgroup available
+```
+
+From there, I started looking to connect to the share to see what was available. Not having much experience with SMB myself, I found http://www.learnlinux.org.za/courses/build/net-admin/ch08s02.html which taught me that I could connect to the share:
+
+```
+root@kali:~# smbclient \\\\localhost\\FileStor -p 445 -U alabaster_snowball
+WARNING: The "syslog" option is deprecated
+Enter WORKGROUP\alabaster_snowball's password:
+Try "help" to get a list of possible commands.
+smb: \>
+```
+
+And plunder the files I found from it:
+
+```
+smb: \> pwd
+Current directory is \\localhost\FileStor\
+smb: \> ls
+  .                                   D        0  Sat Dec 30 23:07:11 2017
+  ..                                  D        0  Sat Dec 30 23:07:11 2017
+  BOLO - Munchkin Mole Report.docx      A   255520  Wed Dec  6 16:44:17 2017
+  GreatBookPage3.pdf                  A  1275756  Mon Dec  4 14:21:44 2017
+  MEMO - Password Policy Reminder.docx      A   133295  Wed Dec  6 16:47:28 2017
+  Naughty and Nice List.csv           A    10245  Thu Nov 30 14:42:00 2017
+  Naughty and Nice List.docx          A    60344  Wed Dec  6 16:51:25 2017
+
+		13106687 blocks of size 4096. 9618145 blocks available
+smb: \> get GreatBookPage3.pdf
+getting file \GreatBookPage3.pdf of size 1275756 as GreatBookPage3.pdf (776.7 KiloBytes/sec) (average 776.7 KiloBytes/sec)
+smb: \> get "BOLO - Munchkin Mole Report.docx"
+getting file \BOLO - Munchkin Mole Report.docx of size 255520 as BOLO - Munchkin Mole Report.docx (293.9 KiloBytes/sec) (average 609.6 KiloBytes/sec)
+smb: \> get "MEMO - Password Policy Reminder.docx"
+getting file \MEMO - Password Policy Reminder.docx of size 133295 as MEMO - Password Policy Reminder.docx (154.8 KiloBytes/sec) (average 493.5 KiloBytes/sec)
+smb: \> get "Naughty and Nice List.csv"
+getting file \Naughty and Nice List.csv of size 10245 as Naughty and Nice List.csv (24.8 KiloBytes/sec) (average 442.4 KiloBytes/sec)
+smb: \> get "Naughty and Nice List.docx"
+getting file \Naughty and Nice List.docx of size 60344 as Naughty and Nice List.docx (97.4 KiloBytes/sec) (average 393.9 KiloBytes/sec)
+smb: \> exit
+```
+
+Seeing as one of the files was a Great Book page, I was able to compute the SHA-1 and get credit for finding the page.
+
+I then took some time to install tools into my Kali Linux environment which would allow me to view the documents that I had obtained from the server:
+
+```
+root@kali:~# apt install libreoffice evince
+```
+
+Inside of the "BOLO - Munchkin Mole Report.docx" document, I found a reference to: `puuurzgexgull` which might potentially be a password to use later. I'll keep it in mind in case I find a place to try it out later.
+
+
+
+
+
+
 
 ## Notes:
 
@@ -461,6 +589,9 @@ For hints associated with this challenge, Sparkle Redberry in the Winconceivable
 3) The North Pole engineering team uses a Windows SMB server for sharing documentation and correspondence. Using your access to the Letters to Santa server, identify and enumerate the SMB file-sharing server. What is the file server share name?
 
 For hints, please see Holly Evergreen in the Cryokinetic Magic Level.
+
+> The file server share name on the server is: "FileStor"
+
 
 4) Elf Web Access (EWA) is the preferred mailer for North Pole elves, available internally at http://mail.northpolechristmastown.com. What can you learn from The Great Book page found in an e-mail on that server?
 
