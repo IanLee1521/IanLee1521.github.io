@@ -1,8 +1,7 @@
 ---
 title: 2017 SANS Holiday Hack Challenge
-date: 2017-12-16
+date: 2018-01-10
 ---
-
 
 ## Introduction
 
@@ -57,8 +56,6 @@ PORT     STATE  SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 710.85 seconds
 ```
-
-
 
 ## Winter Wonder Landing
 
@@ -372,7 +369,6 @@ alabaster_snowball@35.196.226.77's password:
 alabaster_snowball@l2s:/tmp/asnow.99ZsqGTTLDb0HNDLA4mIRNaz$
 ```
 
-
 ## Picking Up After Christmas
 
 Now at this point, we cut forward a week until I'm back from my own trip to the fridged north (Connecticut), and I start getting back into the game. One of the first things that I try to do is to re-connect to the dev.northpolechristmastown.com server, from my Kali host, and I notice that I can't...
@@ -386,6 +382,15 @@ root@kali:~# ssh alabaster_snowball@35.185.84.51
 ```
 
 That landed me in the same restricted bash shell as before breaking for Christmas.
+
+One thing that I did to to make my infiltration a bit easier (at least typing wise) was to create a host entry in my
+
+```
+root@kali:~# cat ~/.ssh/config
+Host l2s
+	User		alabaster_snowball
+	Hostname	35.185.84.51
+```
 
 ## Investigating the SMB Shares
 
@@ -510,22 +515,83 @@ root@kali:~# apt install libreoffice evince
 
 Inside of the "BOLO - Munchkin Mole Report.docx" document, I found a reference to: `puuurzgexgull` which might potentially be a password to use later. I'll keep it in mind in case I find a place to try it out later.
 
+## Hacking for Mail
+
+The next step in the adventure was to infiltrate the mail server running at mail.northpolechristmastown.com (10.142.0.5). I wanted to take some extra time at this point to also investigate the internal network structure a bit. To accomplish this, I ran an `nmap` scan over the internal network and enumerated the hosts present:
+
+```
+alabaster_snowball@l2s:/tmp/asnow.2YaHSZodHR8s05I2QX58GUfe$ nmap -sn -Pn 10.142.0.0/24
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2018-01-01 00:33 UTC
+Nmap scan report for 10.142.0.0
+Host is up.
+Nmap scan report for 10.142.0.1
+Host is up.
+Nmap scan report for hhc17-l2s-proxy.c.holidayhack2017.internal (10.142.0.2)
+Host is up.
+Nmap scan report for hhc17-apache-struts1.c.holidayhack2017.internal (10.142.0.3)
+Host is up.
+Nmap scan report for 10.142.0.4
+Host is up.
+Nmap scan report for mail.northpolechristmastown.com (10.142.0.5)
+Host is up.
+Nmap scan report for edb.northpolechristmastown.com (10.142.0.6)
+Host is up.
+Nmap scan report for hhc17-smb-server.c.holidayhack2017.internal (10.142.0.7)
+Host is up.
+Nmap scan report for hhc17-emi.c.holidayhack2017.internal (10.142.0.8)
+Host is up.
+Nmap scan report for 10.142.0.9
+Host is up.
+Nmap scan report for 10.142.0.10
+Host is up.
+Nmap scan report for hhc17-apache-struts2.c.holidayhack2017.internal (10.142.0.11)
+Host is up.
+Nmap scan report for 10.142.0.12
+Host is up.
+Nmap scan report for eaas.northpolechristmastown.com (10.142.0.13)
+Host is up.
+...
+```
+
+From that, I got my list of the 8 internal hosts, which matched to what I found earlier when I was scanning for SMB servers:
+
+- 10.142.0.2 (hhc17-l2s-proxy.c.holidayhack2017.internal)
+- 10.142.0.3 (hhc17-apache-struts1.c.holidayhack2017.internal)
+- 10.142.0.5 (mail.northpolechristmastown.com)
+- 10.142.0.6 (edb.northpolechristmastown.com)
+- 10.142.0.7 (hhc17-smb-server.c.holidayhack2017.internal)
+- 10.142.0.8 (hhc17-emi.c.holidayhack2017.internal)
+- 10.142.0.11 (hhc17-apache-struts2.c.holidayhack2017.internal)
+- 10.142.0.13 (eaas.northpolechristmastown.com)
+
+I was then able to use this much smaller (8 / 256) host list to conduct a more comprehensive scan of the internal network:
+
+```
+nmap -Pn -A -T4 -p0- 10.142.0.2 10.142.0.3 10.142.0.5 10.142.0.6 10.142.0.7 10.142.0.8 10.142.0.11 10.142.0.13 -oA holidayhack2017.internal
+```
+
+In order to gain access to the mail server, you need to manipulate the cookie being passed to the mail.northpolechristmastown.com web server. This can be done several ways, but I elected to use Burpsuite with a dynamic SOCKS proxy to make my connections.
 
 
 
 
+### Notes
 
 
-## Notes:
+#### mail.northpolechristmastown.com
 
-mail.northpolechristmastown.com (10.142.0.5)
-    - Running OpenSSL 7.2p2, which may be vulnerable to: https://www.exploit-db.com/exploits/40136/
-    - Has /robots.txt file which contains:
+- Running OpenSSL 7.2p2, which may be vulnerable to: https://www.exploit-db.com/exploits/40136/
+
+- Has /robots.txt file which contains:
+
     ```
     User-agent: *
     Disallow: /cookie.txt
     ```
-    - That `cookie.txt` in turn contains:
+
+- That `cookie.txt` in turn contains:
+
     ```
     //FOUND THESE FOR creating and validating cookies. Going to use this in node js
     function cookie_maker(username, callback){
@@ -564,12 +630,13 @@ mail.northpolechristmastown.com (10.142.0.5)
     ```
 
 
-## Credentials:
+## Credentials
 
 | user | password | discovered_on | works_on |
+| --- | --- | --- | --- |
 | alabaster_snowball | stream_unhappy_buy_loss | 35.196.226.77 | 35.196.226.77 |
 
-
+?? "puuurzgexgull"
 
 
 ## Questions to be Answered
