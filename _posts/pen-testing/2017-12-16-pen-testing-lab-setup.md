@@ -189,6 +189,6 @@ I noticed in pretty short order that the database in Kali isn't running by defau
 Which amount to:
 
 ```
-root@kali:~# service postgresql start
+root@kali:~# systemctl start postgresql
 root@kali:~# msfdb init
 ```
