@@ -71,12 +71,12 @@ analytics:
         tracking_id: UA-72759126-1
 
 # Build settings
+plugins:
+    - jekyll-feed
+    - jekyll-remote-theme
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
 paginate: 5
 
 # Exclude from processing.
