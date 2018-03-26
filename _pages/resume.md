@@ -1,9 +1,6 @@
 ---
 title: Ian Lee - Resume
 permalink: /resume/
-layout: single
-classes: wide
-author_profile: true
 ---
 
 ## Summary
@@ -153,7 +150,7 @@ University of Connecticut, Storrs, CT
 {% if repository.fork == false %}
   <li>
     <a href="{{ repository.html_url }}">{{ repository.name }}</a>
-    <span class="fa fa-code-fork"></span> {{ repository.forks_count }}
+    <span class="fa fa-code-branch"></span> {{ repository.forks_count }}
     <span class="fa fa-star"></span> {{ repository.stargazers_count }}
   </li>
 {% endif %}
