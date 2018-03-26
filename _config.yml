@@ -76,6 +76,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 paginate: 5
 
 # Exclude from processing.
