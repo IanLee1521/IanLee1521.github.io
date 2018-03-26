@@ -3,7 +3,8 @@ title: Talks
 permalink: /talks/
 ---
 
-{% for talk in site.data.talks reversed | sort 'date' %}
+{% assign talks = site.data.talks | sort: 'date' | reverse %}
+{% for talk in talks %}
 
 ## {{ talk.title }}
 
