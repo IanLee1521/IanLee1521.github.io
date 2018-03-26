@@ -1,6 +1,6 @@
 # Site settings
 locale: en-US
-title: Ian Lee Website
+title: Ian Lee
 description: "Explorer, Collaborator, and Open Source Evangelist"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ianlee1521.github.io"
