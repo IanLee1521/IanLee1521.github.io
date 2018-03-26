@@ -54,6 +54,7 @@ plugins:
     - jekyll-feed
     - jekyll-remote-theme
     - jekyll-seo-tag
+    - jekyll-sitemap
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
