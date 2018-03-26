@@ -1,7 +1,9 @@
 ---
 title: Ian Lee - Resume
-layout: default
 permalink: /resume/
+layout: single
+classes: wide
+author_profile: true
 ---
 
 ## Summary
@@ -168,4 +170,3 @@ University of Connecticut, Storrs, CT
 * Mac OSX, Debian, RedHat, Sublime Text, ViM, GCC, CMake
 * Atlassian (Confluence, Jira, Stash, Crowd)
 * Jenkins, Travis-CI
-
