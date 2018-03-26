@@ -72,6 +72,9 @@ paginate: 5
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include:
+    - "_pages"
+
 defaults:
   # _posts
   - scope:
