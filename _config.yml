@@ -53,6 +53,7 @@ analytics:
 plugins:
     - jekyll-feed
     - jekyll-remote-theme
+    - jekyll-seo-tag
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
