@@ -1,6 +1,6 @@
 ---
 title: Working through Metasploitable 2
-date: 2018-03-xx
+date: 2018-03-25
 ---
 
 ## Introduction
