@@ -12,9 +12,9 @@ can make a difference._
 
 ### Lawrence Livermore National Laboratory
 
-#### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, <small>April 2018 - Present</small>
+#### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, April 2018 - Present
 
-#### Information System Security Officer (ISSO), Livermore Computing, <small>April 2018 - Present</small>
+#### Information System Security Officer (ISSO), Livermore Computing, April 2018 - Present
 
 * Responsible for overall security of Livermore Computing (LC) High Performance
   Computing (HPC) center.
@@ -23,7 +23,7 @@ can make a difference._
 * Lead LC Security Task Force meeting to discuss, address, and guide cyber
   security direction of LC.
 
-#### Cyber Assessment Coordinator, Livermore Computing, <small>November 2016 - Present</small>
+#### Cyber Assessment Coordinator, Livermore Computing, November 2016 - Present
 
 * Responsible for defining, performing, and coordinating cyber assessment
   activities on all Livermore Computing (LC) production, infrastructure, and
@@ -37,7 +37,7 @@ can make a difference._
 * Perform penetration testing against LC systems and provide feedback to staff
   and management on findings and remediation steps.
 
-#### Computer Engineer, Livermore Computing, <small>November 2015 - Present</small>
+#### Computer Engineer, Livermore Computing, November 2015 - Present
 
 * Application developer providing support and technical guidance to LLNL code
   teams.
@@ -46,7 +46,7 @@ can make a difference._
 * Administrator for six Atlassian instances running across various networks,
   serving approximately 3000 end users.
 
-#### Open Source Evangelist, <small>February 2015 - Present</small>
+#### Open Source Evangelist, February 2015 - Present
 
 * Principal Investigator on projects building the Open Source Software
   community at LLNL.
@@ -54,7 +54,7 @@ can make a difference._
 * Webmaster for [LLNL Software Catalog](https://software.llnl.gov).
 * Primary Administrator for [LLNL GitHub Organization](https://github.com/llnl).
 
-#### Computer Engineer, Persistics, <small>October 2012 - November 2015</small>
+#### Computer Engineer, Persistics, October 2012 - November 2015
 
 * Proposed and led effort to move custom analytic tools into cloud based
   SaaS architecture to allow migration away from stove-piped solutions
@@ -65,7 +65,7 @@ can make a difference._
 * Led redesign of code base (~ 0.5 million LOC) from custom build script
   over to CMake while reducing the complexity of the code in the process.
 
-#### Administrator, Institutional Atlassian Suite, <small>May 2013 - April 2018</small>
+#### Administrator, Institutional Atlassian Suite, May 2013 - April 2018
 
 * Volunteered to lead administration and advocacy for institutional
   instance of Atlassian tool suite supporting Engineering and Global
@@ -73,20 +73,20 @@ can make a difference._
 * Made several presentations on technologies including Git, Stash/BitBucket, and
   workflow management to laboratory personnel.
 
-#### Summer Intern, Persistics, <small>June 2012 - October 2012</small>
+#### Summer Intern, Persistics, June 2012 - October 2012
 
 * Supported the Persistics project with development and optimization of
   CUDA kernels for both new and existing code.
 * Led optimization of image processing pipeline from Fermi to Kepler
   GPU’s to support real time processing requirements.
 
-#### Summer Intern, Engineering Technology Division, <small>June 2011 - September 2011</small>
+#### Summer Intern, Engineering Technology Division, June 2011 - September 2011
 
 * Surveyed CUDA, Fortress, and Charm++ parallel programming languages for
   their suitability for exascale computing at Lawrence Livermore National
   Laboratory.
 
-#### Summer Intern, Engineering Technology Division, <small>June 2010 - September 2010</small>
+#### Summer Intern, Engineering Technology Division, June 2010 - September 2010
 
 * Worked extensively with CUDA technology to develop benchmarking and stress
   testing applications in support of the JIEDDO project.
@@ -95,7 +95,7 @@ can make a difference._
 
 ### University of California - Santa Cruz
 
-#### Teaching Assistant, <small>September 2009 - June 2012</small>
+#### Teaching Assistant, September 2009 - June 2012
 
 * Computer Networking (Fall 2009, Spring 2010)
 * Computer Systems & Assembly (Winter 2010, Fall 2010, Winter 2011)
@@ -103,7 +103,7 @@ can make a difference._
 
 ### Bentley Systems, Inc
 
-#### Summer Intern, Applied Research Division, <small>May 2009 - September 2009</small>
+#### Summer Intern, Applied Research Division, May 2009 - September 2009
 
 * Developed parallel computing application for water modeling software.
 * Established test procedures to evaluate performance and feasibility of test
@@ -112,7 +112,7 @@ can make a difference._
 
 ### University of California - Santa Cruz
 
-#### Undergraduate Researcher, NSF SURF-IT, <small>June 2008 - August 2008</small>
+#### Undergraduate Researcher, NSF SURF-IT, June 2008 - August 2008
 
 * Developed tools for benchmarking the parallel computational performance of
   NVIDIA Graphical Processing Units, using NVIDIA CUDA technology.
@@ -153,13 +153,13 @@ can make a difference._
 
 ## Education
 
-### Masters of Science in Computer Engineering, <small>October 2012</small>
+### Masters of Science in Computer Engineering, October 2012
 
 University of California - Santa Cruz, Santa Cruz, CA
 
 Thesis: [Dynamic Instruction Fusion](https://escholarship.org/uc/item/41x2x382)
 
-### Bachelors of Science in Engineering in Computer Engineering, <small>June 2009</small>
+### Bachelors of Science in Engineering in Computer Engineering, June 2009
 
 University of Connecticut, Storrs, CT
 
@@ -196,12 +196,12 @@ University of Connecticut, Storrs, CT
 
 ## Education
 
-### Masters of Science in Computer Engineering, <small>October 2012</small>
+### Masters of Science in Computer Engineering, October 2012
 
 University of California - Santa Cruz, Santa Cruz, CA
 
 Thesis: [Dynamic Instruction Fusion](https://escholarship.org/uc/item/41x2x382)
 
-### Bachelors of Science in Engineering in Computer Engineering, <small>June 2009</small>
+### Bachelors of Science in Engineering in Computer Engineering, June 2009
 
 University of Connecticut, Storrs, CT
