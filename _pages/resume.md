@@ -1,5 +1,5 @@
 ---
-title: Ian Lee - Resume
+title: Resume
 permalink: /resume/
 ---
 
