@@ -5,35 +5,46 @@ permalink: /resume/
 
 ## Why
 
-_To leave things better than I found them, so that those around me are inspired
-to know they can make a difference._
+_To leave things better than I found them, so that those around me believe they
+can make a difference._
 
 ## Employment
 
 ### Lawrence Livermore National Laboratory
 
-#### Computer Engineer, Livermore Computing, <small>November 2015 - Present</small>
+#### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, <small>April 2018 - Present</small>
 
-#### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, April 2018 - Present
+#### Information System Security Officer (ISSO), Livermore Computing, <small>April 2018 - Present</small>
 
-#### Information System Security Officer (ISSO), Livermore Computing, April 2018 - Present
-
-* Responsible for overall security of Livermore Computing High Performance
+* Responsible for overall security of Livermore Computing (LC) High Performance
   Computing (HPC) center.
-* Ensure and track compliance of LC systems to
+* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
+  Security requirements.
+* Lead LC Security Task Force meeting to discuss, address, and guide cyber
+  security direction of LC.
 
-#### Cyber Assessment Coordinator, Livermore Computing, November 2016 - Present
+#### Cyber Assessment Coordinator, Livermore Computing, <small>November 2016 - Present</small>
 
-* Responsible for performing and coordinating the following activities on all
-  Livermore Computing (LC) production, infrastructure, and testbed systems.
-* Monitor relevant security vulnerability feeds from vendors, LLNL Cyber
-  Security Program (CSP), and other sources.
+* Responsible for defining, performing, and coordinating cyber assessment
+  activities on all Livermore Computing (LC) production, infrastructure, and
+  testbed systems.
+* Monitor relevant security vulnerability and threat intelligence feeds from
+  vendors, LLNL Cyber Security Program (CSP), and other sources.
 * Monitor industry accepted standards for configurations and services, and
   help define LC best methods and practices.
 * Provide technical guidance on new technologies and innovations that impact
   the security posture of LC systems.
 * Perform penetration testing against LC systems and provide feedback to staff
   and management on findings and remediation steps.
+
+#### Computer Engineer, Livermore Computing, <small>November 2015 - Present</small>
+
+* Application developer providing support and technical guidance to LLNL code
+  teams.
+* Develop and support Python packaging for integration with Livermore Computing
+  resources and clusters.
+* Administrator for six Atlassian instances running across various networks,
+  serving approximately 3000 end users.
 
 #### Open Source Evangelist, <small>February 2015 - Present</small>
 
@@ -114,14 +125,16 @@ to know they can make a difference._
 * **I. Lee**, *How Open Source Collaboration Benefits Cyber Security*, Department of Energy CyberCon, June 2018
 * **I. Lee**, *Open Source in Service to National Security*, Code For America / Code.gov Meetup, May 2018
 * **I. Lee**, *Your Secrets are Showing! How to find if your developers are leaking secrets*, BSidesSF 2018, April 2018, [Slides](https://speakerdeck.com/ianlee1521/your-secrets-are-showing), [Video](https://www.youtube.com/watch?v=fOG9cHaK_O4)
-* **I. Lee**, *2018 State of Open Source*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018
-* **I. Lee**, *Open Source Workflows at LLNL*, Code.gov Bi-weekly Call, January 2018
+* **I. Lee**, *2018 State of Open Source*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018, [Slides](https://speakerdeck.com/ianlee1521/2018-state-of-open-source-at-llnl)
+* **I. Lee**, *Open Source Workflows at LLNL*, Code.gov Bi-weekly Call, January 2018, [Slides](https://speakerdeck.com/ianlee1521/open-source-workflows-at-llnl)
 * **I. Lee**, *U.S. Adoption of HTTPS*, CyberFest 2017, Lawrence Livermore National Laboratory, October 2017, [Slides](https://speakerdeck.com/ianlee1521/us-adoption-of-https)
-* **I. Lee**, *Developing Open Source in Service to National Security*, Oak Ridge National Laboratory (Invited Talk), June 2017
+* **I. Lee**, *Developing Open Source in Service to National Security*, Oak Ridge National Laboratory (Invited Talk), June 2017, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security-ornl-visit)
+* **I. Lee**, *Introduction to Git*, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, June 2016
 * **I. Lee**, *Developing Open Source in Service to National Security*, University of California - Santa Cruz (Invited Talk), February 2017
 * **I. Lee**, *Developing Open Source in Service to National Security*, GitHub Universe, September 2016, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security), [Video](https://www.youtube.com/watch?v=Uflvf8l0NLY)
 * **I. Lee**, *Open Source Birds of a Feather*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2016
 * **I. Lee**, *pep8 vs PEP-8*, Lightning Talk, PyCon 2016, [Slides](https://speakerdeck.com/ianlee1521/pep8-vs-pep-8)
+* **I. Lee**, *Introduction to Git*, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, July 2016
 * **I. Lee**, *Towards Open Source and Collaboration*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, February 2016, [Slides](https://speakerdeck.com/ianlee1521/towards-open-source-and-collaboration-at-llnl)
 * **I. Lee**, *Stash Administration*, Atlassian Administrators Meeting, Lawrence Livermore National Laboratory, August 2014
 * **I. Lee**, *Git Tutorial: Managing Workflows*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, January 2014
