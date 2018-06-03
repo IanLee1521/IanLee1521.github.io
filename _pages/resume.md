@@ -123,7 +123,7 @@ can make a difference._
 ### Presentations
 
 * **I. Lee**, *How Open Source Collaboration Benefits Cyber Security*, Department of Energy CyberCon, June 2018
-* **I. Lee**, *Open Source in Service to National Security*, Code For America / Code.gov Meetup, May 2018
+* **I. Lee**, *Open Source in Service to National Security*, Code For America / Code.gov Meetup, May 2018, [Slides](https://speakerdeck.com/ianlee1521/ambassadors-of-code-open-source-in-service-to-national-security)
 * **I. Lee**, *Your Secrets are Showing! How to find if your developers are leaking secrets*, BSidesSF 2018, April 2018, [Slides](https://speakerdeck.com/ianlee1521/your-secrets-are-showing), [Video](https://www.youtube.com/watch?v=fOG9cHaK_O4)
 * **I. Lee**, *2018 State of Open Source*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018, [Slides](https://speakerdeck.com/ianlee1521/2018-state-of-open-source-at-llnl)
 * **I. Lee**, *Open Source Workflows at LLNL*, Code.gov Bi-weekly Call, January 2018, [Slides](https://speakerdeck.com/ianlee1521/open-source-workflows-at-llnl)
@@ -134,7 +134,7 @@ can make a difference._
 * **I. Lee**, *Developing Open Source in Service to National Security*, GitHub Universe, September 2016, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security), [Video](https://www.youtube.com/watch?v=Uflvf8l0NLY)
 * **I. Lee**, *Open Source Birds of a Feather*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2016
 * **I. Lee**, *pep8 vs PEP-8*, Lightning Talk, PyCon 2016, [Slides](https://speakerdeck.com/ianlee1521/pep8-vs-pep-8)
-* **I. Lee**, *Introduction to Git*, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, July 2016
+* **I. Lee**, *Introduction to Git*, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, July 2016, [Slides](https://speakerdeck.com/ianlee1521/introduction-to-git)
 * **I. Lee**, *Towards Open Source and Collaboration*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, February 2016, [Slides](https://speakerdeck.com/ianlee1521/towards-open-source-and-collaboration-at-llnl)
 * **I. Lee**, *Stash Administration*, Atlassian Administrators Meeting, Lawrence Livermore National Laboratory, August 2014
 * **I. Lee**, *Git Tutorial: Managing Workflows*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, January 2014
