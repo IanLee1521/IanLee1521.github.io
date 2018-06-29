@@ -122,7 +122,7 @@ can make a difference._
 
 ### Presentations
 
-* **I. Lee**, *How Open Source Collaboration Benefits Cyber Security*, Department of Energy CyberCon, June 2018
+* **I. Lee**, *How Open Source Collaboration Benefits Cyber Security*, Department of Energy CyberCon, June 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-benefits-cyber-security)
 * **I. Lee**, *Open Source in Service to National Security*, Code For America / Code.gov Meetup, May 2018, [Slides](https://speakerdeck.com/ianlee1521/ambassadors-of-code-open-source-in-service-to-national-security)
 * **I. Lee**, *Your Secrets are Showing! How to find if your developers are leaking secrets*, BSidesSF 2018, April 2018, [Slides](https://speakerdeck.com/ianlee1521/your-secrets-are-showing), [Video](https://www.youtube.com/watch?v=fOG9cHaK_O4)
 * **I. Lee**, *2018 State of Open Source*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018, [Slides](https://speakerdeck.com/ianlee1521/2018-state-of-open-source-at-llnl)
