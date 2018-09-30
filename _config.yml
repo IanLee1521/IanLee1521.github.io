@@ -75,6 +75,8 @@ paginate: 5
 include:
     - "_pages"
 
+permalink: /:categories/:year/:month/:day/:title/
+
 defaults:
   # _posts
   - scope:
