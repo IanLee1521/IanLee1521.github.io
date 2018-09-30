@@ -11,7 +11,9 @@ In this particular case, I chose to save time by just logging in to the target V
 
 Once I had the IP address, I took the step of adding that to my Kali `/etc/hosts` file, so that I could reference it by the name `target` rather than having to type out the IP address for every command.
 
-    echo "172.16.243.143 target" >> /etc/hosts
+```
+echo "172.16.243.143 target" >> /etc/hosts
+```
 
 ## Scanning
 
