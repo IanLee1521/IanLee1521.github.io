@@ -1,0 +1,7 @@
+main:
+    - title: "Resume"
+      url: /resume/
+    - title: "Talks"
+      url: /talks/
+    - title: "Quotes"
+      url: /quotes/
