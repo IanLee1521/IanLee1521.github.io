@@ -571,9 +571,6 @@ nmap -Pn -A -T4 -p0- 10.142.0.2 10.142.0.3 10.142.0.5 10.142.0.6 10.142.0.7 10.1
 
 In order to gain access to the mail server, you need to manipulate the cookie being passed to the mail.northpolechristmastown.com web server. This can be done several ways, but I elected to use Burpsuite with a dynamic SOCKS proxy to make my connections.
 
-
-
-
 ### Notes
 
 

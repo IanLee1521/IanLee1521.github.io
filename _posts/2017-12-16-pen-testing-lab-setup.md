@@ -157,7 +157,6 @@ root@kali:~# man sshd_config
              If this option is set to prohibit-password or without-password, password and keyboard-interactive authentication are disabled for root.
 
 [...snip...]
-
 ```
 
 So in this case, I'll need to add my host public ssh key, into my Kali Linux VM configuration:

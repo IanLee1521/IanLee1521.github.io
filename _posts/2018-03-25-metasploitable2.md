@@ -240,7 +240,6 @@ The first service that I poked at was the rlogin service, allowing remote login 
 
 ```
 root@kali:~# apt install rsh-client
-
 ```
 
 ... but once installed, it was trivial to log in to the system:
@@ -757,7 +756,6 @@ postgres=# \du
  Role name |            Attributes             | Member of
 -----------+-----------------------------------+-----------
  postgres  | Superuser, Create role, Create DB | {}
-
 ```
 
 ### distccd
