@@ -3,8 +3,6 @@ title: 2017 SANS Holiday Hack Challenge
 date: 2018-01-10
 ---
 
-## Introduction
-
 Given that I had the pleasure of having the wonderful Ed Skoudis (@edskoudis) as my instructor for SANS 560 this past summer, I got to hear all about the Counter Hack (his company) constructed Holiday Hack Challenges, which are made available each year. Unfortunately, I wasn't able to carve out any time since then to actually work on the previous years' challenges, but I figured that this was my chance to get in on the phone!
 
 ## Getting Started
