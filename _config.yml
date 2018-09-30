@@ -3,7 +3,7 @@ locale: en-US
 title: Ian Lee
 description: "Explorer, Collaborator, and Open Source Evangelist"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ianlee1521.github.io"
+url: "https://ianlee1521.com"
 repository: IanLee1521/IanLee1521.github.io
 comments:
     provider: "disqus"
@@ -17,8 +17,8 @@ author:
     bio              : "Explorer, Collaborator, and Open Source Evangelist."
     location         : "Livermore, CA, USA"
     email            : IanLee1521@gmail.com
-    uri              : https://ianlee1521.github.io
-    home             : https://ianlee1521.github.io
+    uri              : https://ianlee1521.com
+    home             : https://ianlee1521.com
     bitbucket        : IanLee1521
     codepen          :
     dribbble         :
