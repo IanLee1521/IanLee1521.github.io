@@ -878,7 +878,7 @@ msf auxiliary(scanner/http/tomcat_mgr_login) > run
 [*] Auxiliary module execution completed
 ```
 
-Bingo! It turns out that one pair of default credentials, `tomcat` / `tomcat`, were bring using by the management interface for the Tomcat application. This further enabled the use of the `exploit/multi/http/tomcat_mgr_deploy` exploit to gain a shell on the target server:
+Bingo! It turns out that one pair of default credentials, `tomcat` / `tomcat`, were being using by the management interface for the Tomcat application. This further enabled the use of the `exploit/multi/http/tomcat_mgr_deploy` exploit to gain a shell on the target server:
 
 ```
 msf auxiliary(scanner/http/tomcat_mgr_login) > use exploit/multi/http/tomcat_mgr_deploy
