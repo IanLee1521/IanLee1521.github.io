@@ -8,6 +8,6 @@ permalink: /talks/
 
 ## {{ talk.title }}
 
-<script async class="speakerdeck-embed" data-id="{{ talk.id }}" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="{{ talk.speakerdeck_id }}" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 {% endfor %}

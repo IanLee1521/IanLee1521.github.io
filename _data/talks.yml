@@ -1,31 +1,51 @@
-- title: Towards Open Source and Collaboration
+- title: "Towards Open Source and Collaboration"
   date: 2016-02-18
-  id: e3dc622ffc1e4a1ab45db8af46730fcc
+  speakerdeck_id: e3dc622ffc1e4a1ab45db8af46730fcc
 
-- title: pep8 vs PEP-8
+- title: "pep8 vs PEP-8"
   date: 2016-05-31
-  id: d14bb3c1c53141899c17fde8ccbf186d
+  speakerdeck_id: d14bb3c1c53141899c17fde8ccbf186d
 
-- title: Introduction to Git
+- title: "Introduction to Git"
   date: 2016-07-25
-  id: 84e083aaff25440cb1a316f38eeb7e5d
+  speakerdeck_id: 84e083aaff25440cb1a316f38eeb7e5d
 
-- title: Developing Open Source in Service to National Security
+- title: "Developing Open Source in Service to National Security"
   date: 2016-09-14
-  id: 5ab7489b471143f4bc2cba110a007002
+  speakerdeck_id: 5ab7489b471143f4bc2cba110a007002
 
-- title: Developing Open Source in Service to National Security - ORNL Visit
+- title: "Developing Open Source in Service to National Security - ORNL Visit"
   date: 2017-07-28
-  id: 11051d1cf0b34a81b92d471ebdabb6d4
+  speakerdeck_id: 11051d1cf0b34a81b92d471ebdabb6d4
 
-- title: US Adoption of HTTPS
+- title: "US Adoption of HTTPS"
   date: 2017-10-17
-  id: bca70f1d63d743a284e2dfdd809082c1
+  speakerdeck_id: bca70f1d63d743a284e2dfdd809082c1
 
-- title: Open Source Workflows @ LLNL
+- title: "Open Source Workflows @ LLNL"
   date: 2018-01-25
-  id: 5789607541a04d138b9776ebdac4d5b6
+  speakerdeck_id: 5789607541a04d138b9776ebdac4d5b6
 
-- title: 2018 State of Open Source at LLNL
+- title: "2018 State of Open Source at LLNL"
   date: 2018-03-13
-  id: e5a97915803f4b9faed7d82536f683c2
+  speakerdeck_id: e5a97915803f4b9faed7d82536f683c2
+
+- title: "Your Secrets are Showing!"
+  date: 2018-04-15
+  speakerdeck_id: e7978fa82a5842948db8eff1d45a44f2
+
+- title: "Ambassadors of Code: Open Source in Service to National Security"
+  date: 2018-05-30
+  speakerdeck_id: 61d650da1b364d0faa6afe71aadaa8ed
+
+- title: "How Open Source Benefits Cyber Security"
+  date: 2018-06-05
+  speakerdeck_id: b0645c50ad634b03b2d8035be539101f
+
+- title: "How Open Source Supports the Largest Computers on the Planet"
+  date: 2018-07-18
+  speakerdeck_id: 8aa540ea02954f939c644c266ee5b927
+
+- title: "Post Exploitation in Developer Environments"
+  date: 2018-11-13
+  speakerdeck_id: 1b2a2aa5c3c14b6eb25b20656ce04e40
