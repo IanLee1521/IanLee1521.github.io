@@ -7,4 +7,10 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.page__content p, .page__content li, .page__content dl { font-size: 0.75em; }
+.page__content p, .page__content li, .page__content dl {
+    font-size: 0.75em;
+}
+
+div.highlighter-rouge, figure.highlight {
+    font-size: 0.65em;
+}
