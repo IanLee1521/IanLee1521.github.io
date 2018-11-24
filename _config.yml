@@ -58,7 +58,9 @@ plugins:
     - jekyll-include-cache
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "neon"
+# minimal_mistakes_skin: "neon"
+# minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "air"
 paginate: 5
 
 # Exclude from processing.
