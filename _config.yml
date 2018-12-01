@@ -43,6 +43,15 @@ author:
     xing             :
     youtube          : "https://youtube.com/c/IanLee1521"
 
+footer:
+    links:
+        - label: "Twitter"
+          icon: "fab fa-fw fa-twitter-square"
+          url: "https://twitter.com/IanLee1521"
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/IanLee1521"
+
 # Analytics
 analytics:
     provider: "google-universal"
