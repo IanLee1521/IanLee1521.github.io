@@ -1,4 +1,6 @@
 main:
+    - title: "Posts"
+      url: /
     - title: "Resume"
       url: /resume/
     - title: "Talks"
