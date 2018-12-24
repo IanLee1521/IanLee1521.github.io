@@ -1,7 +1,8 @@
 ---
 title: "WiFi Pineapple, part 1"
 date: 2018-12-24
-image: "https://wifipineapple.com/assets/img/logo1-default.png"
+header:
+    image: "https://wifipineapple.com/assets/img/logo1-default.png"
 ---
 
 Today, I finally decided to open up and take a look at my [WiFi Pineapple Nano](https://wifipineapple.com/pages/nano) that I'd gotten as a presenter earlier this year. This was an interesting tool for me as I know very little about WiFi auditing. It isn't something that I really have experience with, given that I normally am running on fast wired connections, but let's give it a shot!
