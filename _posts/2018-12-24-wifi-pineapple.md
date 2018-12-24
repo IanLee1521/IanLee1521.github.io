@@ -46,7 +46,7 @@ Since I was on a Windows host, the instructions were as follows:
 4. From the host internet connection source (in my case `Wi-Fi 2`), right-click the interface and select Properties.
 5. From the Sharing, tab, check the box  labeled "Allow other network users to connect through this computer's Internet connection" and select the `WiFi Pineapple` network interface from the drop down menu, and click `OK`.
 
-![Host wifi sharing](/assets/images/2018-12-24-pineapple-host-wifi.png)
+    ![Host wifi sharing](/assets/images/2018-12-24-pineapple-host-wifi.png)
 
 6. Right-click the `WiFi Pineapple` network interface and select "Properties".
 7. Select "Internet Protocol Version 4 (TCP/IPv4) and click "Properties"
