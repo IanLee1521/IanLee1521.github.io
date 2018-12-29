@@ -58,7 +58,7 @@ footer:
 
 # Analytics
 analytics:
-    provider: "google-universal"
+    provider: "google-gtag"
     google:
         tracking_id: UA-72759126-1
 
