@@ -10,9 +10,22 @@ can make a difference._
 
 ## Employment
 
+### Ian Lee Consulting
+
+* I provide cyber security consulting services for businesses and individuals
+  looking to get ahead of the next cyber threat.
+* I offer penetration testing and vulnerability assessments, analyzing networks
+  for opportunities a hacker would use to gain access to important or sensitive
+  data on your network.
+
 ### Lawrence Livermore National Laboratory
 
 #### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, April 2018 - Present
+
+* Responsible for overall security of Livermore Computing (LC) High Performance
+  Computing (HPC) center.
+* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
+  Security requirements.
 
 #### Information System Security Officer (ISSO), Livermore Computing, April 2018 - Present
 
