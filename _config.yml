@@ -1,7 +1,7 @@
 # Site settings
 locale: en-US
 title: Ian Lee
-description: "I'm Ian Lee, a cyber security professional and open source evangelist."
+description: "I'm Ian Lee, a cyber security professional and open source evangelist. I believe in leaving things better than I found them, so that those around me are inspired to know they can make a difference."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ianlee1521.com"
 repository: IanLee1521/IanLee1521.github.io
@@ -14,7 +14,7 @@ comments:
 author:
     name             : Ian Lee
     avatar           : https://s.gravatar.com/avatar/c416a04a16b233e65afd993815c167dd?s=256
-    bio              : "Leave things better than you found them."  # "Explorer, Collaborator, and Open Source Evangelist."
+    bio              : "Cyber Security Professional, Open Source Evangelist, Martial Artist, Aspiring Rock Climber"  # "Explorer, Collaborator, and Open Source Evangelist."
     location         : "Livermore, CA, USA"
     email            : IanLee1521@gmail.com
     uri              : https://ianlee1521.com
