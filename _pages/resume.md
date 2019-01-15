@@ -133,6 +133,10 @@ can make a difference._
 
 ## Publications
 
+### Guest Posts
+
+* **I. Lee**, *The case for open source software*, 18F Blog, June 2018, [Blog Post](https://18f.gsa.gov/2018/07/12/the-case-for-open-source-software/)
+
 ### Presentations
 
 * **I. Lee**, *How Open Source Collaboration Benefits Cyber Security*, Department of Energy CyberCon, June 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-benefits-cyber-security)
