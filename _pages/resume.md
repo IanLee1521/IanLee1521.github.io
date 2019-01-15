@@ -133,9 +133,10 @@ can make a difference._
 
 ## Publications
 
-### Guest Posts
+### Guest Posts / Interviews
 
 * **I. Lee**, *The case for open source software*, 18F Blog, June 2018, [Blog Post](https://18f.gsa.gov/2018/07/12/the-case-for-open-source-software/)
+* **I. Lee**, *How one national lab is opening up code without compromising national security*, FedScoop Post, September 2016, [Article](https://www.fedscoop.com/livermore-national-laboratory-open-source-github-2016/)
 
 ### Presentations
 
