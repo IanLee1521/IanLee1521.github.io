@@ -2,7 +2,7 @@
 title: "WiFi Pineapple, part 1"
 date: 2018-12-24
 header:
-    overlay_image: "/assets/images/2018-12-24-pineapple-logo.jpg"
+    overlay_image: "/assets/images/2018/12/pineapple-logo.jpg"
     show_overlay_excerpt: false
 ---
 
@@ -23,7 +23,7 @@ The "TL;DR" version of the instructions was actually quite helpful for setting t
 
 This setup worked well, and soon I was up and running with the pineapple dashboard!
 
-![Pineapple Dashboard](/assets/images/2018-12-24-pineapple-setup.png)
+![Pineapple Dashboard](/assets/images/2018/12/pineapple-setup.png)
 
 ## Some Quick Investigation
 
@@ -37,7 +37,7 @@ Then it dawned on me that everyone was connecting to the 5GHz access point offer
 
 As I continued exploring the web UI, I noticed that I wasn't able to get out to the internet... Well duh, I hadn't configured the internet sharing from the Pineapple to the internet, leading to error messages when trying to perform actions that wanted to go out to the internet:
 
-![Error message when trying to load bulletins from WiFiPineapple.com](/assets/images/2018-12-24-pineapple-bulletins.png)
+![Error message when trying to load bulletins from WiFiPineapple.com](/assets/images/2018/12/pineapple-bulletins.png)
 
 I tried to follow the instructions from the WiFi Pineapple book, but found myself not quick working properly... Hmm, that is peculiar. (Turns out looking back now at them, I understand where I went astray).
 
@@ -49,7 +49,7 @@ Since I was on a Windows host, the instructions were as follows:
 4. From the host internet connection source (in my case `Wi-Fi 2`), right-click the interface and select Properties.
 5. From the Sharing, tab, check the box  labeled "Allow other network users to connect through this computer's Internet connection" and select the `WiFi Pineapple` network interface from the drop down menu, and click `OK`.
 
-    ![Host wifi sharing](/assets/images/2018-12-24-pineapple-host-wifi.png)
+    ![Host wifi sharing](/assets/images/2018/12/pineapple-host-wifi.png)
 
 6. Right-click the `WiFi Pineapple` network interface and select "Properties".
 7. Select "Internet Protocol Version 4 (TCP/IPv4) and click "Properties"
@@ -57,11 +57,11 @@ Since I was on a Windows host, the instructions were as follows:
 
 Now, the first time that I did this, interpretted the last step in the instructions as "set the default gateway to `172.16.42.42`". This didn't make a lot of sense though, and that really should have been a clue...
 
-![Pineapple wifi sharing before](/assets/images/2018-12-24-pineapple-client-wifi-before.png)
+![Pineapple wifi sharing before](/assets/images/2018/12/pineapple-client-wifi-before.png)
 
 I did some troubleshooting and "Google-ing" around to attempt to find a solution, and after not much time, came across [this forum post](https://forums.hak5.org/topic/42731-internet-connection-sharing-with-nano-and-tetra/?do=findComment&comment=290618) that led me to the solution. Namely, that they didn't mean "default gateway" but instead meant the "IP Address" for the interface.
 
-![Pineapple wifi sharing after](/assets/images/2018-12-24-pineapple-client-wifi-after.png)
+![Pineapple wifi sharing after](/assets/images/2018/12/pineapple-client-wifi-after.png)
 
 After getting this reconfigured, everything started working as expected and I was able to confirm it working by loading the bulletins from the dashboard page.
 
@@ -69,11 +69,11 @@ After getting this reconfigured, everything started working as expected and I wa
 
 After getting everything set up, I was able to load up the list of modules in the UI and see some of the options available to me:
 
-![WiFi Pineapple Modules](/assets/images/2018-12-24-pineapple-modules.png)
+![WiFi Pineapple Modules](/assets/images/2018/12/pineapple-modules.png)
 
 Given the scope of the activities that I was working on, I decided that the `Site Survey` module would be the best fit for checking out. I installed that plugin, and then clicked over to it in the modules list of on the left menu. There I was shown a screen indicating that I needed to install some dependencies which took just a minute to do. At this point I reached the configuration and scan screen:
 
-![WiFi Pineapple Site Survey Screen](/assets/images/2018-12-24-pineapple-site-survey.png)
+![WiFi Pineapple Site Survey Screen](/assets/images/2018/12/pineapple-site-survey.png)
 
 I did a quick survey of the surrounding area, yielding similar results to those obtained from the other Recon scan I did earlier.
 
