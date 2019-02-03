@@ -1,5 +1,5 @@
----
 title: "Setting up a Pi-hole DNS Sinkhole"
+---
 date: 2019-01-27
 header:
     overlay_image: "/assets/images/2019/01/pihole.png"
@@ -45,3 +45,11 @@ Here are a few interesting ideas for future configuration to do after this weeke
 - Scott Helme has an excellent blog post available on [Securing DNS across all of my devices with Pi-Hole + DNS-over-HTTPS + 1.1.1.1](https://scotthelme.co.uk/securing-dns-across-all-of-my-devices-with-pihole-dns-over-https-1-1-1-1/) which I think would be really interesting to follow. (If nothing else, I like the idea of setting up Let's Encrypt certificates for the admin interfaces of things like the Pi-hole admininistration page, and also maybe my router's admin page).
 
 - And someday, maybe I'll try to emulate the full Ubiquity based network hardware setups of [Troy Hunt](https://www.troyhunt.com/ubiquiti-all-the-things-how-i-finally-fixed-my-dodgy-wifi/) and [Scott Helme](https://scotthelme.co.uk/my-ubiquiti-home-network/). After reading those two articles, I am definitely interested, although I'm not sure I'm really doing enough to *need* much more than the single ASUS wireless router... Maybe some day.
+
+## Update: 2019-02-02
+
+Browsing around this afternoon, looking for information about streaming the upcoming Superbowl game tomorrow led me to the cbssports.com website, which is apparently lousy with ads. But why wasn't the Pi-hole blocking them...?
+
+I did some digging around and ran across [this thread on Reddit](https://www.reddit.com/r/pihole/comments/9wy6dq/google_ads_are_bypassing_pihole_by_being_served/) that provided the clue. Namely, that the site lists its ads via the pattern `c-8xxxxx.g00.xxx` or similar. This led me further down the thread to a solution, namely to add the following regex to the Pi-hole `(.*)\.g00\.(.*)` which seems to have solved the problem:
+
+![Adding the g00 regex to the Pi-hole admin interface's deny list](/assets/images/2019/01/blacklist-g00-regex.png)
