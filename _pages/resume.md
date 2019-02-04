@@ -136,6 +136,7 @@ can make a difference._
 ### Guest Posts / Interviews
 
 * **I. Lee**, *The case for open source software*, 18F Blog, June 2018, [Blog Post](https://18f.gsa.gov/2018/07/12/the-case-for-open-source-software/)
+* **I. Lee**, *Ambassadors of Code*, S&TR Preview, January 2018, [Interview Video](https://www.youtube.com/watch?v=nTxMn1NWHQU)
 * **I. Lee**, *How one national lab is opening up code without compromising national security*, FedScoop Post, September 2016, [Article](https://www.fedscoop.com/livermore-national-laboratory-open-source-github-2016/)
 
 ### Presentations
