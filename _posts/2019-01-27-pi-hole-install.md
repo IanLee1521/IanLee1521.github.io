@@ -1,5 +1,5 @@
-title: "Setting up a Pi-hole DNS Sinkhole"
 ---
+title: "Setting up a Pi-hole DNS Sinkhole"
 date: 2019-01-27
 header:
     overlay_image: "/assets/images/2019/01/pihole.png"
