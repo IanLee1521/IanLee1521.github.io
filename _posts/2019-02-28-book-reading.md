@@ -5,7 +5,7 @@ tags: [books]
 # header:
 #     overlay_image: ""
 #     show_overlay_excerpt: false
-published: false
+published: true
 ---
 
 When I was young, I was always reading. Growing up just before the cell phone age, and never having been much for playing games on (e.g.) a Gameboy, meant that I always had a book close at hand, and read all the time. In a nod to my parents, I also grew up in a household where, whenever we were on a trip, we were told to bring a book with us to read, rather than being on some electronic device.
