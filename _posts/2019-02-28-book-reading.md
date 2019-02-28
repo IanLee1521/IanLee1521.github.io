@@ -1,6 +1,6 @@
 ---
 title: "How I Read 70+ Books per Year"
-date: 2019-02-xx
+date: "2019-02-28"
 tags: [books]
 # header:
 #     overlay_image: ""
@@ -14,7 +14,7 @@ That continued all the way through high school.
 
 I have many fond memories of reading (and re-reading) such books as the Redwall series by Brian Jacques, the vast majority of books in the Star Wars Extended Universe, and "Halo: The Fall of Reach" by Eric Nylund.
 
-!["Halo: The Fall of Reach", my second copy, as the first was read so many times that the cover was falling apart](/assets/images/2019/02/halo-book.jpg)
+!["Halo: The Fall of Reach", my second copy, as the first was read so many times that the cover was falling apart](/assets/images/2019/02/halo-book.jpg){: .align-center}
 
 And yet, when I went off to college, my reading started to taper off... Part of that was due to having so much to read for my courses (at one point I was up to a declared triple major), and partially due to the density of those books making "fun" reading not so fun any more. To be honest, there was also the usual college distractions like late night video games to get in the way.
 
@@ -44,11 +44,11 @@ BookBub allows book readers the opportunity to sign up for notifications of when
 
 By creating an account, you can configure both the retailers you're interested in linking to:
 
-![BookBub Retailers](/assets/images/2019/02/bookbub-retailers.png)
+![BookBub Retailers](/assets/images/2019/02/bookbub-retailers.png){: .align-center}
 
 As well as the categories of books that you're interested in receiving notifications for:
 
-![BookBub Categories](/assets/images/2019/02/bookbub-categories.png)
+![BookBub Categories](/assets/images/2019/02/bookbub-categories.png){: .align-center}
 
 <figure class="half">
     <img src="/assets/images/2019/02/bookbub-retailers.png"></a>
@@ -82,21 +82,21 @@ That of course leads to the topic of tracking books that I've read. One of the w
 
 For my first year back into reading regularly (2016), I thought I would make a relatively modest pledge. I set my goal at the beginning of the year to 24 books for the year, two per month, and well... It only ended up taking me a few months to break through that... So then I mentally upped my goal to 52 books for the year, or one per week, and even that goal I passed with still plenty of time to spare. All in all, when the year closed, I had read 71 books. Far more than I was expecting and an accomplishment I am quite proud of:
 
-![Goodreads Reading Challenge 2016](/assets/images/2019/02/goodreads-ian-2016.png)
+![Goodreads Reading Challenge 2016](/assets/images/2019/02/goodreads-ian-2016.png){: .align-center}
 
 But that was just 2016... Throughout the year, I built up more avenues for getting books in (including Overdrive which I'll discuss shortly) and set my challenge at one more than what I accomplished in 2016: 72 books for the year, or 6 books per month.
 
 Again, I was able to surpass my challenge, completing 80 books read by the end of the year:
 
-![Goodreads Reading Challenge 2017](/assets/images/2019/02/goodreads-ian-2017.png)
+![Goodreads Reading Challenge 2017](/assets/images/2019/02/goodreads-ian-2017.png){: .align-center}
 
 In 2018, I ended up keeping the challenge number the same at 72 books, and honestly probably shouldn't have. I ended up passing that goal again, and clocking in 84 books for the year:
 
-![Goodreads Reading Challenge 2018](/assets/images/2019/02/goodreads-ian-2018.png)
+![Goodreads Reading Challenge 2018](/assets/images/2019/02/goodreads-ian-2018.png){: .align-center}
 
 So finally in 2019 (this year) I decided to bump up the challenege a bit more, this time to 84 books for the year (7 per month). So far, I am right on track for completing the challenge with 19 books read to date (as of 2019-02-19 while I write this).
 
-![Goodreads Reading Challenge 2019](/assets/images/2019/02/goodreads-ian-2019.png)
+![Goodreads Reading Challenge 2019](/assets/images/2019/02/goodreads-ian-2019.png){: .align-center}
 
 Now, I will admit, I have started counting baby / toddler board books in the list this year as my wife and I prepare for the arrival of our first child this June, but even still, I expect to reach my goal with just the "real" books.
 
@@ -134,17 +134,61 @@ Searching for books on Overdrive is my preferred way to look for books. This is 
 
 One of the best features of Overdrive (though really the digital libraries themselves) is the collection of audiobooks that they have access to. This wasn't actually something that I was originally looking for when I started my Overdrive use, but has instead become a huge part of how I've read so many books. Through the Overdrive (or newer Libby) app, it is possible to download audiobooks directly to my phone and listen to them in the car was I commute to karate in San Jose, do the dishes at home, or sometimes when I make long drives across the state when my wife is napping in the passenger seat.
 
-A "typical" paper book
+The "typical" paper book that I've been reading is somewhere in the neighborhood of 300 - 400 pages, and that ends up working out (typically) to about 12 - 16 hours of audio. I myself find that I've been able to listen to them at between 1.5x and 1.75x the recording speed (and in fact I often *can'* bring myself to listen at 1x anymore), reducing a book to about 7 - 10 hours of audio listening.
+
+Said another way, this is about 5 round trip drives to my kenpo studio, or a couple of weekend afternoons doing chores / cleaning around the house.
 
 ## Why So Many Books?
 
-https://www.inc.com/brian-d-evans/most-ceos-read-a-book-a-week-this-is-how-you-can-too-according-to-this-renowned-.html
-https://www.bustle.com/p/how-many-books-did-the-average-american-read-in-the-last-year-this-new-study-may-surprise-you-8837851
-https://www.pickthebrain.com/blog/habit-will-put-top-1-experts-money-makers/
-https://bitesizebio.com/500/how-to-become-a-world-expert-in-your-field/
+At this point, you might be asking: "ok, so you read a lot of books... but why!?"
 
+Part of it stems from the idea, found in [many articles](https://www.pickthebrain.com/blog/habit-will-put-top-1-experts-money-makers/), that [reading more](https://www.bustle.com/p/how-many-books-did-the-average-american-read-in-the-last-year-this-new-study-may-surprise-you-8837851), consistently, over time, [is a path to gaining](https://www.inc.com/brian-d-evans/most-ceos-read-a-book-a-week-this-is-how-you-can-too-according-to-this-renowned-.html) and achieving [expertise in a chosen field](https://bitesizebio.com/500/how-to-become-a-world-expert-in-your-field/). One of the more straightforward ways of saying this I've found is:
 
 > If you read one hour a day in your chosen field that translates into 1 book a week. One book per week translates into roughly 50 books a year. Do that for 5 years and you have read 250 books in your field. You will quickly become an expert in your field.
 -- https://jeanineblackwell.com/how-to-become-an-expert-in-your-field/
 
 ### Palo Alto Networks Cyber Canon
+
+For me, one of the areas where I have been trying to increase my expertise is in the field of cybersecurity. To that end, I ended up searching around for lists of books on topics in the field. That led me to the [Cybersecurity Canon](https://cybercanon.paloaltonetworks.com/) book list. Their website says it best:
+
+> **A Rock & Roll Hall of Fame for Cybersecurity Books**<br>
+> To identify a list of must-read books for all cybersecurity practitioners – be they from industry, government or academia — where the content is timeless, genuinely represents an aspect of the community that is true and precise, reflects the highest quality and, if not read, will leave a hole in the cybersecurity professional’s education that will make the practitioner incomplete.
+
+I have been working on devouring these books, and to date have read many of the 100 books listed there today, including:
+
+- The Seventh Sense
+- Cybersecurity and Cyberwar
+- Countdown to Zero Day
+- The Cuckoo's Egg
+- Spam Nation
+- No Place to Hide
+- Worm
+- America the Vulnerable
+- Dark Territory
+- Kingpin
+- Future Crimes
+- Cryptonomicon (a 40 hour audiobook!)
+- Trojan Horse
+- Zero Day
+- Cyber War
+- @War
+- Metasploit
+- The Phoenix Project
+- Secrets and Lies
+
+As well as a few others that I've got stacked up and ready to go:
+
+- Site Reliability Engineering
+- Crypto
+- The Girl With The Dragon Tattoo
+- The CERT Guide to Insider Threats
+
+This is definitely an area I seek to continue to dive deeper in to, and will be reading heavily in for a while. I am also particularly excited that when I was just checking out the current canon list to make the above list, I found they have added a few more books to the list, and that they have a Twitter account to follow: [@CyberSecCanon](https://twitter.com/cyberseccanon)
+
+## Wrapping Up
+
+Thank you for reading this far. My hope is that this post gives you some motivation to read more, and broadly. Read everything that you can, and especially viewpoints that are outside of your "comfort zone".
+
+And now it's time for me to get back to reading!
+
+![Part of the book shelves](/assets/images/2019/02/bookcase.jpg){: .align-center}
