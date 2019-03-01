@@ -51,8 +51,8 @@ As well as the categories of books that you're interested in receiving notificat
 ![BookBub Categories](/assets/images/2019/02/bookbub-categories.png){: .align-center}
 
 <figure class="half">
-    <img src="/assets/images/2019/02/bookbub-retailers.png"></a>
-    <img src="/assets/images/2019/02/bookbub-categories.png"></a>
+    <img src="/assets/images/2019/02/bookbub-retailers.png">
+    <img src="/assets/images/2019/02/bookbub-categories.png">
     <figcaption>BookBub configuration options for retailers and categories.</figcaption>
 </figure>
 
