@@ -50,12 +50,6 @@ As well as the categories of books that you're interested in receiving notificat
 
 ![BookBub Categories](/assets/images/2019/02/bookbub-categories.png){: .align-center}
 
-<figure class="half">
-    <img src="/assets/images/2019/02/bookbub-retailers.png">
-    <img src="/assets/images/2019/02/bookbub-categories.png">
-    <figcaption>BookBub configuration options for retailers and categories.</figcaption>
-</figure>
-
 This allows BookBub to send periodic notifications, daily or weekly (I prefer daily), for books that are free or cheap available on the services you've selected.
 
 I've found a number of really great new books and authors that I wouldn't otherwise have ever heard of:
