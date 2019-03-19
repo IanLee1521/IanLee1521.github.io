@@ -189,6 +189,7 @@ University of Connecticut, Storrs, CT
 
 ### Certifications
 
+* SANS GPYC (Analyst #590), March 2019
 * SANS GPEN (Analyst #12106), December 2017
 * SANS GSEC (Analyst #40434), March 2017
 
