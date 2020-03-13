@@ -15,14 +15,14 @@ Did I miss something? [Submit a pull request here](https://github.com/IanLee1521
 ## Product Links
 
 - Blue Microphones Yeti USB Microphone: 
-    - https://www.amazon.com/gp/product/B07YCM6M6M/
+    - [https://www.amazon.com/gp/product/B07YCM6M6M/](https://www.amazon.com/gp/product/B07YCM6M6M/)
 - Razer Kiyo Webcam: 
-    - https://www.razer.com/gaming-broadcaster/razer-kiyo
-    - https://www.amazon.com/gp/product/B075N1BYWB/
+    - [https://www.razer.com/gaming-broadcaster/razer-kiyo](https://www.razer.com/gaming-broadcaster/razer-kiyo)
+    - [https://www.amazon.com/gp/product/B075N1BYWB/](https://www.amazon.com/gp/product/B075N1BYWB/)
 - Elgato Stream Deck Controller: 
-    - https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/
+    - [https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/](https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/)
 - Backdoors & Breaches: 
-    - https://www.amazon.com/Backdoors-Breaches-Incident-Response-Card/dp/B07Y3Y1XLP/
+    - [https://www.amazon.com/Backdoors-Breaches-Incident-Response-Card/dp/B07Y3Y1XLP/](https://www.amazon.com/Backdoors-Breaches-Incident-Response-Card/dp/B07Y3Y1XLP/)
     - [How to Play Backdoors & Breaches, Incident Response Card Game by Black Hills Infosec](https://www.youtube.com/watch?v=TAiJVr0zWMw)
 
 ## YouTube Videos
@@ -44,4 +44,4 @@ Did I miss something? [Submit a pull request here](https://github.com/IanLee1521
 
 ## CFP Resources
 
-- https://www.cfptime.org/home
+- [CFP Time](https://www.cfptime.org/home)
