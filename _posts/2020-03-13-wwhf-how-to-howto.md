@@ -8,7 +8,7 @@ tags: []
 published: true
 ---
 
-[Jason Blanchard](https://twitter.com/BanjoCrashland) of[ Black Hils Information Security](https://twitter.com/BHinfoSecurity) gave a fantastic workshop talk at [Wild West Hackin Fest](https://twitter.com/WWHackinFest) today on [How To Create How-To's](https://wildwesthackinfestwaywest2020.sched.com/event/Ztdp/workshop-how-to-create-how-tos), where he (and the community) shared an amazing set of resources on getting yourself out there. With his permission, I'm creating this post to try to gather up all his resources, if only so I have them for myself later :)
+[Jason Blanchard](https://twitter.com/BanjoCrashland) of [Black Hills Information Security](https://twitter.com/BHinfoSecurity) gave a fantastic workshop talk at [Wild West Hackin Fest](https://twitter.com/WWHackinFest) today on [How To Create How-To's](https://wildwesthackinfestwaywest2020.sched.com/event/Ztdp/workshop-how-to-create-how-tos), where he (and the community) shared an amazing set of resources on getting yourself out there. With his permission, I'm creating this post to try to gather up all his resources, if only so I have them for myself later :)
 
 Did I miss something? [Submit a pull request here](https://github.com/IanLee1521/IanLee1521.github.io/blob/master/_posts/2020-03-13-wwhf-how-to-howto.md)!
 
