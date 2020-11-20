@@ -133,12 +133,14 @@ can make a difference._
 
 ### Guest Posts / Interviews
 
+* **I. Lee**, *Spotlight Story: Interns and Open Source: A Productive Combination*, Code.gov on Medium, June 2018, [Blog Post](https://medium.com/codedotgov/spotlight-story-interns-and-open-source-a-productive-combination-d03cba28b280)
 * **I. Lee**, *The case for open source software*, 18F Blog, June 2018, [Blog Post](https://18f.gsa.gov/2018/07/12/the-case-for-open-source-software/)
 * **I. Lee**, *Ambassadors of Code*, S&TR Preview, January 2018, [Interview Video](https://www.youtube.com/watch?v=nTxMn1NWHQU)
 * **I. Lee**, *How one national lab is opening up code without compromising national security*, FedScoop Post, September 2016, [Article](https://www.fedscoop.com/livermore-national-laboratory-open-source-github-2016/)
 
 ### Presentations
 
+* **I. Lee**, *Intro to Git for Security Professionals Workshop*, Wild West Hackin Fest, September 2020, [Slides](https://speakerdeck.com/ianlee1521/intro-to-git-for-security-professionals)
 * **I. Lee**, *Post Exploitation in Developer Environments*, SANS Pen Test Hack Fest Summit, November 2018, [Slides](https://speakerdeck.com/ianlee1521/post-exploitation-in-developer-environments)
 * **I. Lee**, *At the heart of a Supercomputer, is Open Source Software", RedHat OPEN FIRST DC, September 2018
 * **I. Lee**, *How Open Source Supports the Largest Computers on the Planet*, DOE Exascale Computing Project Best Practices Webinar, July 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-software-supports-the-largest-computers-on-the-planet), [Video](https://www.youtube.com/watch?v=8sCUWXopEjI)
