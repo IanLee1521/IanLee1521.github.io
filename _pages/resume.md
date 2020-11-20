@@ -210,6 +210,7 @@ University of Connecticut, Storrs, CT
     * [scraper](https://github.com/LLNL/scraper)
     * [pycodestyle](https://github.com/pycqa/pycodestyle)
 * GitHub: https://github.com/IanLee1521
+* GitLab: https://gitlab.com/IanLee1521
 * BitBucket: https://bitbucket.org/IanLee1521
 
 ### Memberships / Organizations
