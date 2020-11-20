@@ -189,9 +189,10 @@ University of Connecticut, Storrs, CT
 
 ### Certifications
 
-* SANS GPYC (Analyst #590), March 2019
-* SANS GPEN (Analyst #12106), December 2017
-* SANS GSEC (Analyst #40434), March 2017
+* [SANS GISF](https://www.youracclaim.com/badges/f23eb88f-71c4-45a6-8939-c67eeb70ffd2) (Analyst #4751), October 2019
+* [SANS GPYC](https://www.youracclaim.com/badges/12281244-2abf-4ff9-982e-bc45cd56dfd5) (Analyst #590), March 2019
+* [SANS GPEN](https://www.youracclaim.com/badges/2f08d198-c6d7-43e8-a31f-f4a7501071f3) (Analyst #12106), December 2017
+* [SANS GSEC](https://www.youracclaim.com/badges/e072a35e-8f0c-4f7e-acbf-b0ca23a3d4a7) (Analyst #40434), March 2017
 
 ### Awards
 
