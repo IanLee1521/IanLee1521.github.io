@@ -114,6 +114,12 @@ can make a difference._
 * Computer Systems & Assembly (Winter 2010, Fall 2010, Winter 2011)
 * Logic Design (Winter 2012, Spring 2012)
 
+#### Undergraduate Researcher, NSF SURF-IT, June 2008 - August 2008
+
+* Developed tools for benchmarking the parallel computational performance of
+  NVIDIA Graphical Processing Units, using NVIDIA CUDA technology.
+* Benchmarks designed and implemented without a provided framework.
+
 ### Bentley Systems, Inc
 
 #### Summer Intern, Applied Research Division, May 2009 - September 2009
@@ -122,14 +128,6 @@ can make a difference._
 * Established test procedures to evaluate performance and feasibility of test
   model.
 * Presented methodology and results to Senior Bentley colleagues.
-
-### University of California - Santa Cruz
-
-#### Undergraduate Researcher, NSF SURF-IT, June 2008 - August 2008
-
-* Developed tools for benchmarking the parallel computational performance of
-  NVIDIA Graphical Processing Units, using NVIDIA CUDA technology.
-* Benchmarks designed and implemented without a provided framework.
 
 ## Publications
 
