@@ -31,7 +31,7 @@ New-Item -ItemType Junction -Path  "$Env:USERPROFILE/OneDrive/Documents/My Games
 
 ## Factorio
 
-For [Factorio](https://factorio.com/) the attempt was to store the saves AND the all the blueprint files, so therefore I linked the entire Factorio directory.
+For [Factorio](https://factorio.com/) the attempt was to store the saves AND the all the blueprint files, so therefore I linked [the entire Factorio directory](https://wiki.factorio.com/Application_directory).
 
 ```powershell
 # Make the Junction in OneDrive pointing to the Factorio user data
