@@ -12,19 +12,19 @@ Standards are hard... I get it. But it would be really nice if I could actually 
 
 Enter Windows [Junctions](https://docs.microsoft.com/en-us/sysinternals/downloads/junction).
 
+## Background
+
+Windows [Junctions](https://docs.microsoft.com/en-us/sysinternals/downloads/junction) are effectively hard links for directories. They all Windows to reference the same physical storage from different logical directories.
+
+By creating a Junction in OneDrive pointing to the directory where the files *really* live, this will allow OneDrive to sync the files and keep them backed up in to the cloud on a regular basis.
+
 ## Satisfactory
 
-[Satisfactory](https://www.satisfactorygame.com/) was the first game that I did this for, and there I (for what ever reason) chose to only store the saved game folder, and not all the game files.
+[Satisfactory](https://www.satisfactorygame.com/) was the first game that I did this for, and there I (for what ever reason) chose to only store [the saved game folder](https://satisfactory.gamepedia.com/Save_files), and not all the game files.
 
 ```powershell
-# Make the Satisfactory top level directory in My Games
-mkdir "$Env:LOCALAPPDATA/FactoryGame/"
-
-# Move the Save Game from the "main" (original) location
-Move-Item -Path "$Env:LOCALAPPDATA/FactoryGame/Saved" -Destination "$Env:USERPROFILE/My Games/FactoryGame/"
-
-# Make the Junction in the main / original path pointing to the My Games version
-New-Item -ItemType Junction -Path "$Env:LOCALAPPDATA/FactoryGame/Saved/" -Target "$Env:USERPROFILE/My Games/FactoryGame/Saved"
+# Make the Junction in OneDrive pointing to the Satisfactory save data
+New-Item -ItemType Junction -Path  "$Env:USERPROFILE/OneDrive/Documents/My Games/FactoryGame/" -Target "$Env:LOCALAPPDATA/FactoryGame/Saved/"
 ```
 
 ## Factorio
@@ -32,14 +32,8 @@ New-Item -ItemType Junction -Path "$Env:LOCALAPPDATA/FactoryGame/Saved/" -Target
 For [Factorio](https://factorio.com/) the attempt was to store the saves AND the all the blueprint files, so therefore I linked the entire Factorio directory.
 
 ```powershell
-# Make the Satisfactory top level directory in My Games
-mkdir "$Env:APPDATA/Factorio/"
-
-# Move the Save Game from the "main" (original) location
-Move-Item -Path "$Env:APPDATA/Factorio" -Destination "$Env:USERPROFILE/My Games/"
-
-# Make the Junction in the main / original path pointing to the My Games version
-New-Item -ItemType Junction -Path "$Env:APPDATA/Factorio/" -Target "$Env:USERPROFILE/My Games/Factorio/"
+# Make the Junction in OneDrive pointing to the Satisfactory save data
+New-Item -ItemType Junction -Path  "$Env:USERPROFILE/OneDrive/Documents/My Games/Factorio/" -Target "$Env:APPDATA/Factorio/"
 ```
 
 ## References
