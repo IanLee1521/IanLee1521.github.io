@@ -8,7 +8,7 @@ tags: []
 published: true
 ---
 
-Standards are hard... I get it. But it would be really nice if I could actually get all my games into the same place (ideally `%USERPROFILE%/Documents/My Games` on Windows). That way that they are included in my automatic OneDrive Backup of my `%USERPROFILE%/Documents` directory.
+Standards are hard... I get it. But it would be really nice if I could actually get all my games into the same place (ideally `$Env:USERPROFILE/OneDrive/Documents/My Games` on Windows). That way that they are included in my automatic OneDrive Backup of my `$Env:USERPROFILE/OneDrive/Documents` directory.
 
 Enter Windows [Junctions](https://docs.microsoft.com/en-us/sysinternals/downloads/junction).
 
@@ -17,6 +17,8 @@ Enter Windows [Junctions](https://docs.microsoft.com/en-us/sysinternals/download
 Windows [Junctions](https://docs.microsoft.com/en-us/sysinternals/downloads/junction) are effectively hard links for directories. They all Windows to reference the same physical storage from different logical directories.
 
 By creating a Junction in OneDrive pointing to the directory where the files *really* live, this will allow OneDrive to sync the files and keep them backed up in to the cloud on a regular basis.
+
+Below are the example snippets (in Powershell) showing how to configure things. Note, for my setup, I'll be storing things in the base path (in OneDrive) of: `$Env:USERPROFILE/OneDrive/Documents/My Games/`
 
 ## Satisfactory
 
