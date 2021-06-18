@@ -114,7 +114,7 @@ poetry run black awesome/
 git commit -am'Blackened my awesome project'
 
 # Create GitHub repo
-git remote add $URL  # Need to create the URL on your hosting platform (GitHub, etc) first
+git remote add git@github.com:IanLee1521/wwhf-2021-awesome-project.git
 git push -u origin main
 ```
 
