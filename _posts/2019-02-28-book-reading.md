@@ -143,7 +143,7 @@ Part of it stems from the idea, found in [many articles](https://www.pickthebrai
 
 ### Palo Alto Networks Cyber Canon
 
-For me, one of the areas where I have been trying to increase my expertise is in the field of cybersecurity. To that end, I ended up searching around for lists of books on topics in the field. That led me to the [Cybersecurity Canon](https://cybercanon.paloaltonetworks.com/) book list. Their website says it best:
+For me, one of the areas where I have been trying to increase my expertise is in the field of cybersecurity. To that end, I ended up searching around for lists of books on topics in the field. That led me to the [Cybersecurity Canon](https://icdt.osu.edu/cybercanon) book list. Their website says it best:
 
 > **A Rock & Roll Hall of Fame for Cybersecurity Books**<br>
 > To identify a list of must-read books for all cybersecurity practitioners – be they from industry, government or academia — where the content is timeless, genuinely represents an aspect of the community that is true and precise, reflects the highest quality and, if not read, will leave a hole in the cybersecurity professional’s education that will make the practitioner incomplete.
