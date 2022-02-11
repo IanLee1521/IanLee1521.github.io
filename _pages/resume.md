@@ -255,9 +255,9 @@ University of Connecticut, Storrs, CT
     * [domain-scan](https://github.com/18F/domain-scan)
     * [scraper](https://github.com/LLNL/scraper)
     * [pycodestyle](https://github.com/pycqa/pycodestyle)
-* GitHub: https://github.com/IanLee1521
-* GitLab: https://gitlab.com/IanLee1521
-* BitBucket: https://bitbucket.org/IanLee1521
+* GitHub: <https://github.com/IanLee1521>
+* GitLab: <https://gitlab.com/IanLee1521>
+* BitBucket: <https://bitbucket.org/IanLee1521>
 
 ### Memberships / Organizations
 
