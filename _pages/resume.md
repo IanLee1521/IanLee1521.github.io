@@ -94,15 +94,6 @@ can make a difference._
 * Perform penetration testing against LC systems and provide feedback to staff
   and management on findings and remediation steps.
 
-#### Computer Engineer, Livermore Computing, November 2015 - Present
-
-* Application developer providing support and technical guidance to LLNL code
-  teams.
-* Develop and support Python packaging for integration with Livermore Computing
-  resources and clusters.
-* Administrator for six Atlassian instances running across various networks,
-  serving approximately 3000 end users.
-
 #### Open Source Evangelist, February 2015 - Present
 
 * Principal Investigator on projects building the Open Source Software
@@ -110,6 +101,15 @@ can make a difference._
 * Social media agent in charge of [@LLNL_OpenSource on Twitter](https://twitter.com/llnl_opensource).
 * Webmaster for [LLNL Software Catalog](https://software.llnl.gov).
 * Primary Administrator for [LLNL GitHub Organization](https://github.com/llnl).
+
+#### Computer Engineer, Livermore Computing, November 2015 - November 2016
+
+* Application developer providing support and technical guidance to LLNL code
+  teams.
+* Develop and support Python packaging for integration with Livermore Computing
+  resources and clusters.
+* Administrator for six Atlassian instances running across various networks,
+  serving approximately 3000 end users.
 
 #### Computer Engineer, Persistics, October 2012 - November 2015
 
