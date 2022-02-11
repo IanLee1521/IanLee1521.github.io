@@ -12,17 +12,6 @@ can make a difference._
 
 ### Lawrence Livermore National Laboratory (June 2010 - Present)
 
-#### Web Services Team Lead, Livermore Computing, November 2021 - Present
-
-* Lead team of engineers responsible for maintaining suite of web services supporting
-  ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub,
-  Apache, and Nginx services.
-* Serve as lead engineer for deployments and automation, having implemented improvements
-  to bring service downtimes to (<10) minutes rather than hours.
-* Direct and oversee efforts to modernize web technology stack including investigations
-  into application of continuous integration and containerization to support improved
-  reliability and ease of maintenance  of services.
-
 #### Security Operations Team Lead, Livermore Computing, October 2021 - Present
 
 * Identify gaps and areas for improvement in the overall security posture of Livermore
@@ -55,6 +44,17 @@ can make a difference._
   the security posture of LC systems.
 * Perform penetration testing against LC systems and provide feedback to staff
   and management on findings and remediation steps.
+
+#### Web Services Team Lead, Livermore Computing, November 2021 - Present
+
+* Lead team of engineers responsible for maintaining suite of web services supporting
+  ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub,
+  Apache, and Nginx services.
+* Serve as lead engineer for deployments and automation, having implemented improvements
+  to bring service downtimes to (<10) minutes rather than hours.
+* Direct and oversee efforts to modernize web technology stack including investigations
+  into application of continuous integration and containerization to support improved
+  reliability and ease of maintenance  of services.
 
 #### Open Source Evangelist, February 2015 - Present
 
