@@ -203,7 +203,7 @@ _November 2018 - Present_
 
 * **I. Lee** and P. Top, **_Real Time Video Tracking on CUDA-Accelerated GPUs_**, Lawrence Livermore National Laboratory, Summer Student Poster Symposium, Livermore, CA, August 2010
 * **I. Lee**, **_Pixel Based Lithography on NVIDIA GPUs_**, ACM Student Research Competition, Design Automation Conference (DAC 2010), Anaheim, CA, June 2010
-* **I. Lee**, J. Renau, and J. Mahai, **_Making the Most of your Hardware: Micro-Benchmarks on NVIDIA GPUs_**, SURF-IT Poster Presentation, University of California - Santa Cruz, Santa Cruz, CA, August 2008, [Poster](https://surf-it.soe.ucsc.edu/node/82)
+* **I. Lee**, J. Renau, and J. Mahai, **_Making the Most of your Hardware: Micro-Benchmarks on NVIDIA GPUs_**, SURF-IT Poster Presentation, University of California - Santa Cruz, Santa Cruz, CA, August 2008
 
 ## Education
 
