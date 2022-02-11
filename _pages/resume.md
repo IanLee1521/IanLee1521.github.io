@@ -42,15 +42,6 @@ can make a difference._
 * Encourage and direct process improvement and automation of security efforts within
   Livermore Computing.
 
-#### Information System Security Officer (ISSO), Livermore Computing, April 2018 - January 2019
-
-* Responsible for overall security of Livermore Computing (LC) High Performance
-  Computing (HPC) center.
-* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
-  Security requirements.
-* Lead LC Security Task Force meeting to discuss, address, and guide cyber
-  security direction of LC.
-
 #### Cyber Assessment Coordinator, Livermore Computing, November 2016 - Present
 
 * Responsible for defining, performing, and coordinating cyber assessment
@@ -72,6 +63,15 @@ can make a difference._
 * Social media agent in charge of [@LLNL_OpenSource on Twitter](https://twitter.com/llnl_opensource).
 * Webmaster for [LLNL Software Catalog](https://software.llnl.gov).
 * Primary Administrator for [LLNL GitHub Organization](https://github.com/llnl).
+
+#### Information System Security Officer (ISSO), Livermore Computing, April 2018 - January 2019
+
+* Responsible for overall security of Livermore Computing (LC) High Performance
+  Computing (HPC) center.
+* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
+  Security requirements.
+* Lead LC Security Task Force meeting to discuss, address, and guide cyber
+  security direction of LC.
 
 #### Computer Engineer, Livermore Computing, November 2015 - November 2016
 
