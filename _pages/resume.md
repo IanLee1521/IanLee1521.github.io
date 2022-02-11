@@ -14,112 +14,73 @@ can make a difference._
 
 #### Security Operations Team Lead, Livermore Computing, October 2021 - Present
 
-* Identify gaps and areas for improvement in the overall security posture of Livermore
-  Computing (LC) High Performance Computing (HPC) center.
-* Lead team of engineers focused on continuous monitoring of HPC environment, including:
-  system health and performance monitoring, security monitoring for malicious or
-  undesirable activity, detection and response to issues that arise.
-* Set direction and vision of center wide improvements to automation, including
-  modernizing developer workflows around secure DevOps practices.
+* Identify gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
+* Lead team of engineers focused on continuous monitoring of HPC environment, including: system health and performance monitoring, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
+* Set direction and vision of center wide improvements to automation, including: modernizing developer workflows around secure DevOps practices.
 
 #### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, April 2018 - Present
 
-* Responsible for overall security of Livermore Computing (LC) High Performance
-  Computing (HPC) center.
-* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
-  Security requirements.
-* Encourage and direct process improvement and automation of security efforts within
-  Livermore Computing.
+* Responsible for overall security of Livermore Computing (LC) High Performance Computing (HPC) center.
+* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
+* Encourage and direct process improvement and automation of security efforts within Livermore Computing.
 
 #### Cyber Assessment Coordinator, Livermore Computing, November 2016 - Present
 
-* Responsible for defining, performing, and coordinating cyber assessment
-  activities on all Livermore Computing (LC) production, infrastructure, and
-  testbed systems.
-* Monitor relevant security vulnerability and threat intelligence feeds from
-  vendors, LLNL Cyber Security Program (CSP), and other sources.
-* Monitor industry accepted standards for configurations and services, and
-  help define LC best methods and practices.
-* Provide technical guidance on new technologies and innovations that impact
-  the security posture of LC systems.
-* Perform penetration testing against LC systems and provide feedback to staff
-  and management on findings and remediation steps.
+* Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
+* Monitor relevant security vulnerability and threat intelligence feeds from vendors, LLNL Cyber Security Program (CSP), and other sources.
+* Monitor industry accepted standards for configurations and services, and help define LC best methods and practices.
+* Provide technical guidance on new technologies and innovations that impact the security posture of LC systems.
+* Perform penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
 
 #### Web Services Team Lead, Livermore Computing, November 2021 - Present
 
-* Lead team of engineers responsible for maintaining suite of web services supporting
-  ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub,
-  Apache, and Nginx services.
-* Serve as lead engineer for deployments and automation, having implemented improvements
-  to bring service downtimes to (<10) minutes rather than hours.
-* Direct and oversee efforts to modernize web technology stack including investigations
-  into application of continuous integration and containerization to support improved
-  reliability and ease of maintenance  of services.
+* Lead team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub, Apache, and Nginx services.
+* Serve as lead engineer for deployments and automation, having implemented improvements to bring service downtimes to (<10) minutes rather than hours.
+* Direct and oversee efforts to modernize web technology stack including investigations into application of continuous integration and containerization to support improved reliability and ease of maintenance  of services.
 
 #### Open Source Evangelist, February 2015 - Present
 
-* Principal Investigator on projects building the Open Source Software
-  community at LLNL.
+* Principal Investigator on projects building the Open Source Software community at LLNL.
 * Social media agent in charge of [@LLNL_OpenSource on Twitter](https://twitter.com/llnl_opensource).
 * Webmaster for [LLNL Software Catalog](https://software.llnl.gov).
 * Primary Administrator for [LLNL GitHub Organization](https://github.com/llnl).
 
 #### Information System Security Officer (ISSO), Livermore Computing, April 2018 - January 2019
 
-* Responsible for overall security of Livermore Computing (LC) High Performance
-  Computing (HPC) center.
-* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
-  Security requirements.
-* Lead LC Security Task Force meeting to discuss, address, and guide cyber
-  security direction of LC.
+* Responsible for overall security of Livermore Computing (LC) High Performance Computing (HPC) center.
+* Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
+* Lead LC Security Task Force meeting to discuss, address, and guide cyber security direction of LC.
 
 #### Computer Engineer, Livermore Computing, November 2015 - November 2016
 
-* Application developer providing support and technical guidance to LLNL code
-  teams.
-* Develop and support Python packaging for integration with Livermore Computing
-  resources and clusters.
-* Administrator for six Atlassian instances running across various networks,
-  serving approximately 3000 end users.
+* Application developer providing support and technical guidance to LLNL code teams.
+* Develop and support Python packaging for integration with Livermore Computing resources and clusters.
+* Administrator for six Atlassian instances running across various networks, serving approximately 3000 end users.
 
 #### Computer Engineer, Persistics, October 2012 - November 2015
 
-* Proposed and led effort to move custom analytic tools into cloud based
-  SaaS architecture to allow migration away from stove-piped solutions
-  for common analysis efforts.
-* Provide critical support and direction on topics including H264 video
-  compression, object tracking, CUDA / GPU development, and full system
-  design optimizations.
-* Led redesign of code base (~ 0.5 million LOC) from custom build script
-  over to CMake while reducing the complexity of the code in the process.
+* Proposed and led effort to move custom analytic tools into cloud based SaaS architecture to allow migration away from stove-piped solutions for common analysis efforts.
+* Provide critical support and direction on topics including H264 video compression, object tracking, CUDA / GPU development, and full system design optimizations.
+* Led redesign of code base (~ 0.5 million LOC) from custom build script over to CMake while reducing the complexity of the code in the process.
 
 #### Administrator, Institutional Atlassian Suite, May 2013 - April 2018
 
-* Volunteered to lead administration and advocacy for institutional
-  instance of Atlassian tool suite supporting Engineering and Global
-  Security divisions of the laboratory.
-* Made several presentations on technologies including Git, Stash/BitBucket, and
-  workflow management to laboratory personnel.
+* Volunteered to lead administration and advocacy for institutional instance of Atlassian tool suite supporting Engineering and Global Security divisions of the laboratory.
+* Made several presentations on technologies including Git, Stash/BitBucket, and workflow management to laboratory personnel.
 
 #### Summer Intern, Persistics, June 2012 - October 2012
 
-* Supported the Persistics project with development and optimization of
-  CUDA kernels for both new and existing code.
-* Led optimization of image processing pipeline from Fermi to Kepler
-  GPU’s to support real time processing requirements.
+* Supported the Persistics project with development and optimization of CUDA kernels for both new and existing code.
+* Led optimization of image processing pipeline from Fermi to Kepler GPU’s to support real time processing requirements.
 
 #### Summer Intern, Engineering Technology Division, June 2011 - September 2011
 
-* Surveyed CUDA, Fortress, and Charm++ parallel programming languages for
-  their suitability for exascale computing at Lawrence Livermore National
-  Laboratory.
+* Surveyed CUDA, Fortress, and Charm++ parallel programming languages for their suitability for exascale computing at Lawrence Livermore National Laboratory.
 
 #### Summer Intern, Engineering Technology Division, June 2010 - September 2010
 
-* Worked extensively with CUDA technology to develop benchmarking and stress
-  testing applications in support of the JIEDDO project.
-* Developed a real time tracking application for tracking and identifying target
-  position, orientation, and velocity, with CUDA enabled acceleration.
+* Worked extensively with CUDA technology to develop benchmarking and stress testing applications in support of the JIEDDO project.
+* Developed a real time tracking application for tracking and identifying target position, orientation, and velocity, with CUDA enabled acceleration.
 
 <!-- Older jobs, probably not as relevant in 2022
 ### University of California - Santa Cruz
@@ -148,32 +109,25 @@ can make a difference._
 
 ### Consulting Work
 
-* I provide cyber security consulting services for businesses and individuals
-  looking to get ahead of the next cyber threat.
-* I offer penetration testing and vulnerability assessments, analyzing networks
-  for opportunities a hacker would use to gain access to important or sensitive
-  data on your network.
-* Serve as a Subject Matter Expert on a variety of cybersecurity areas as a 1099
-  contractor.
+* I provide cyber security consulting services for businesses and individuals looking to get ahead of the next cyber threat.
+* I offer penetration testing and vulnerability assessments, analyzing networks for opportunities a hacker would use to gain access to important or sensitive data on your network.
+* Serve as a Subject Matter Expert on a variety of cybersecurity areas as a 1099 contractor.
 
 ### InGuardians, June 2021 - Present
 
 * Serve as a 1099 contractor with InGuardians.
-* Subject Matter Expert performing course reviews and contributing to Kubernetes
-  training courses offered.
+* Subject Matter Expert performing course reviews and contributing to Kubernetes training courses offered.
 
 ### Black Hills Information Security, October 2020 - Present
 
 * Serve as a 1099 contractor with BHIS.
-* Assist with penetration testing for clients, including: vulnerability assessments,
-  internal penetration tests, and security assessments.
+* Assist with penetration testing for clients, including: vulnerability assessments, internal penetration tests, and security assessments.
 * Perform software engineering development work for backend and internal tooling.
 
 ### SANS, November 2018 - Present
 
 * Serve as a 1099 contractor with SANS.
-* Subject Matter Expert performing course reviews for SANS Cybersecurity
-  training courses.
+* Subject Matter Expert performing course reviews for SANS Cybersecurity training courses.
 
 ## Publications
 
