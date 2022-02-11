@@ -121,6 +121,7 @@ can make a difference._
 * Developed a real time tracking application for tracking and identifying target
   position, orientation, and velocity, with CUDA enabled acceleration.
 
+<!-- Older jobs, probably not as relevant in 2022
 ### University of California - Santa Cruz
 
 #### Teaching Assistant, September 2009 - June 2012
