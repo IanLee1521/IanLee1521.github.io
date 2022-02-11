@@ -68,6 +68,11 @@ can make a difference._
 * Volunteered to lead administration and advocacy for institutional instance of Atlassian tool suite supporting Engineering and Global Security divisions of the laboratory.
 * Made several presentations on technologies including Git, Stash/BitBucket, and workflow management to laboratory personnel.
 
+#### Summer Intern
+
+* Supported a variety of projects across three summers in areas including: image processing, GPU code development, Django web application development and parallel computing evaluations.
+
+<!-- Don't really need to show a ton of detail about the internships any more in 2022
 #### Summer Intern, Persistics, June 2012 - October 2012
 
 * Supported the Persistics project with development and optimization of CUDA kernels for both new and existing code.
@@ -81,6 +86,7 @@ can make a difference._
 
 * Worked extensively with CUDA technology to develop benchmarking and stress testing applications in support of the JIEDDO project.
 * Developed a real time tracking application for tracking and identifying target position, orientation, and velocity, with CUDA enabled acceleration.
+-->
 
 <!-- Older jobs, probably not as relevant in 2022
 ### University of California - Santa Cruz
