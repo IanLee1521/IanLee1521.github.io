@@ -17,6 +17,27 @@ can make a difference._
 * I offer penetration testing and vulnerability assessments, analyzing networks
   for opportunities a hacker would use to gain access to important or sensitive
   data on your network.
+* Serve as a Subject Matter Expert on a variety of cybersecurity areas as a 1099
+  contractor.
+
+#### InGuardians, June 2021 - Present
+
+* Serve as a 1099 contractor with InGuardians.
+* Subject Matter Expert performing course reviews and contributing to Kubernetes
+  training courses offered.
+
+#### Black Hills Information Security, October 2020 - Present
+
+* Serve as a 1099 contractor with BHIS.
+* Assist with penetration testing for clients, including: vulnerability assessments,
+  internal penetration tests, and security assessments.
+* Perform software engineering development work for backend and internal tooling.
+
+#### SANS, November 2018 - Present
+
+* Serve as a 1099 contractor with SANS.
+* Subject Matter Expert performing course reviews for SANS Cybersecurity
+  training courses.
 
 ### Lawrence Livermore National Laboratory
 
