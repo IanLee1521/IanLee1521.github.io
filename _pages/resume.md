@@ -68,8 +68,10 @@ can make a difference._
   Computing (HPC) center.
 * Ensure and track compliance of LC systems to LLNL, DOE, and Federal Cyber
   Security requirements.
+* Encourage and direct process improvement and automation of security efforts within
+  Livermore Computing.
 
-#### Information System Security Officer (ISSO), Livermore Computing, April 2018 - Present
+#### Information System Security Officer (ISSO), Livermore Computing, April 2018 - January 2019
 
 * Responsible for overall security of Livermore Computing (LC) High Performance
   Computing (HPC) center.
