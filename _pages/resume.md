@@ -10,7 +10,7 @@ can make a difference._
 
 ## Employment
 
-### Lawrence Livermore National Laboratory
+### Lawrence Livermore National Laboratory (June 2010 - Present)
 
 #### Web Services Team Lead, Livermore Computing, November 2021 - Present
 
