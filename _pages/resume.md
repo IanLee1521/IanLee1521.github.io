@@ -144,6 +144,7 @@ can make a difference._
 * Established test procedures to evaluate performance and feasibility of test
   model.
 * Presented methodology and results to Senior Bentley colleagues.
+-->
 
 ### Consulting Work
 
@@ -176,47 +177,47 @@ can make a difference._
 
 ## Publications
 
-### Guest Posts / Interviews
-
-* **I. Lee**, *Spotlight Story: Interns and Open Source: A Productive Combination*, Code.gov on Medium, June 2018, [Blog Post](https://medium.com/codedotgov/spotlight-story-interns-and-open-source-a-productive-combination-d03cba28b280)
-* **I. Lee**, *The case for open source software*, 18F Blog, June 2018, [Blog Post](https://18f.gsa.gov/2018/07/12/the-case-for-open-source-software/)
-* **I. Lee**, *Ambassadors of Code*, S&TR Preview, January 2018, [Interview Video](https://www.youtube.com/watch?v=nTxMn1NWHQU)
-* **I. Lee**, *How one national lab is opening up code without compromising national security*, FedScoop Post, September 2016, [Article](https://www.fedscoop.com/livermore-national-laboratory-open-source-github-2016/)
-
 ### Presentations
 
-* **I. Lee**, *Intro to Git for Security Professionals Workshop*, Wild West Hackin Fest, September 2020, [Slides](https://speakerdeck.com/ianlee1521/intro-to-git-for-security-professionals)
-* **I. Lee**, *Post Exploitation in Developer Environments*, SANS Pen Test Hack Fest Summit, November 2018, [Slides](https://speakerdeck.com/ianlee1521/post-exploitation-in-developer-environments)
-* **I. Lee**, *At the heart of a Supercomputer, is Open Source Software", RedHat OPEN FIRST DC, September 2018
-* **I. Lee**, *How Open Source Supports the Largest Computers on the Planet*, DOE Exascale Computing Project Best Practices Webinar, July 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-software-supports-the-largest-computers-on-the-planet), [Video](https://www.youtube.com/watch?v=8sCUWXopEjI)
-* **I. Lee**, *How Open Source Collaboration Benefits Cyber Security*, Department of Energy CyberCon, June 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-benefits-cyber-security)
-* **I. Lee**, *Open Source in Service to National Security*, Code For America / Code.gov Meetup, May 2018, [Slides](https://speakerdeck.com/ianlee1521/ambassadors-of-code-open-source-in-service-to-national-security)
-* **I. Lee**, *Your Secrets are Showing! How to find if your developers are leaking secrets*, BSidesSF 2018, April 2018, [Slides](https://speakerdeck.com/ianlee1521/your-secrets-are-showing), [Video](https://www.youtube.com/watch?v=fOG9cHaK_O4)
-* **I. Lee**, *2018 State of Open Source*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018, [Slides](https://speakerdeck.com/ianlee1521/2018-state-of-open-source-at-llnl)
-* **I. Lee**, *Open Source Workflows at LLNL*, Code.gov Bi-weekly Call, January 2018, [Slides](https://speakerdeck.com/ianlee1521/open-source-workflows-at-llnl)
-* **I. Lee**, *U.S. Adoption of HTTPS*, CyberFest 2017, Lawrence Livermore National Laboratory, October 2017, [Slides](https://speakerdeck.com/ianlee1521/us-adoption-of-https)
-* **I. Lee**, *Developing Open Source in Service to National Security*, Oak Ridge National Laboratory (Invited Talk), June 2017, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security-ornl-visit)
-* **I. Lee**, *Introduction to Git*, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, June 2016
-* **I. Lee**, *Developing Open Source in Service to National Security*, University of California - Santa Cruz (Invited Talk), February 2017
-* **I. Lee**, *Developing Open Source in Service to National Security*, GitHub Universe, September 2016, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security), [Video](https://www.youtube.com/watch?v=Uflvf8l0NLY)
-* **I. Lee**, *Open Source Birds of a Feather*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2016
-* **I. Lee**, *pep8 vs PEP-8*, Lightning Talk, PyCon 2016, [Slides](https://speakerdeck.com/ianlee1521/pep8-vs-pep-8)
-* **I. Lee**, *Introduction to Git*, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, July 2016, [Slides](https://speakerdeck.com/ianlee1521/introduction-to-git)
-* **I. Lee**, *Towards Open Source and Collaboration*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, February 2016, [Slides](https://speakerdeck.com/ianlee1521/towards-open-source-and-collaboration-at-llnl)
-* **I. Lee**, *Stash Administration*, Atlassian Administrators Meeting, Lawrence Livermore National Laboratory, August 2014
-* **I. Lee**, *Git Tutorial: Managing Workflows*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, January 2014
-* **I. Lee**, *Git Tutorial Series Part III: Merging & Workflows*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, November 2013
-* **I. Lee**, *Git / Stash*, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2013
+* **_Intro to Git for Security Professionals Workshop_**, Wild West Hackin Fest, September 2020, [Slides](https://speakerdeck.com/ianlee1521/intro-to-git-for-security-professionals)
+* **_Post Exploitation in Developer Environments_**, SANS Pen Test Hack Fest Summit, November 2018, [Slides](https://speakerdeck.com/ianlee1521/post-exploitation-in-developer-environments)
+* **_At the heart of a Supercomputer, is Open Source Software_**, RedHat OPEN FIRST DC, September 2018
+* **_How Open Source Supports the Largest Computers on the Planet_**, DOE Exascale Computing Project Best Practices Webinar, July 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-software-supports-the-largest-computers-on-the-planet), [Video](https://www.youtube.com/watch?v=8sCUWXopEjI)
+* **_How Open Source Collaboration Benefits Cyber Security_**, Department of Energy CyberCon, June 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-benefits-cyber-security)
+* **_Open Source in Service to National Security_**, Code For America / Code.gov Meetup, May 2018, [Slides](https://speakerdeck.com/ianlee1521/ambassadors-of-code-open-source-in-service-to-national-security)
+* **_Your Secrets are Showing! How to find if your developers are leaking secrets_**, BSidesSF 2018, April 2018, [Slides](https://speakerdeck.com/ianlee1521/your-secrets-are-showing), [Video](https://www.youtube.com/watch?v=fOG9cHaK_O4)
+* **_2018 State of Open Source_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018, [Slides](https://speakerdeck.com/ianlee1521/2018-state-of-open-source-at-llnl)
+* **_Open Source Workflows at LLNL_**, Code.gov Bi-weekly Call, January 2018, [Slides](https://speakerdeck.com/ianlee1521/open-source-workflows-at-llnl)
+* **_U.S. Adoption of HTTPS_**, CyberFest 2017, Lawrence Livermore National Laboratory, October 2017, [Slides](https://speakerdeck.com/ianlee1521/us-adoption-of-https)
+* **_Developing Open Source in Service to National Security_**, Oak Ridge National Laboratory (Invited Talk), June 2017, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security-ornl-visit)
+* **_Introduction to Git_**, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, June 2016
+* **_Developing Open Source in Service to National Security_**, University of California - Santa Cruz (Invited Talk), February 2017
+* **_Developing Open Source in Service to National Security_**, GitHub Universe, September 2016, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security), [Video](https://www.youtube.com/watch?v=Uflvf8l0NLY)
+* **_Open Source Birds of a Feather_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2016
+* **_pep8 vs PEP-8_**, Lightning Talk, PyCon 2016, [Slides](https://speakerdeck.com/ianlee1521/pep8-vs-pep-8)
+* **_Introduction to Git_**, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, July 2016, [Slides](https://speakerdeck.com/ianlee1521/introduction-to-git)
+* **_Towards Open Source and Collaboration_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, February 2016, [Slides](https://speakerdeck.com/ianlee1521/towards-open-source-and-collaboration-at-llnl)
+* **_Stash Administration_**, Atlassian Administrators Meeting, Lawrence Livermore National Laboratory, August 2014
+* **_Git Tutorial: Managing Workflows_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, January 2014
+* **_Git Tutorial Series Part III: Merging & Workflows_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, November 2013
+* **_Git / Stash_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2013
+
+### Guest Posts / Interviews
+
+* **_Spotlight Story: Interns and Open Source: A Productive Combination_**, Code.gov on Medium, June 2018, [Blog Post](https://medium.com/codedotgov/spotlight-story-interns-and-open-source-a-productive-combination-d03cba28b280)
+* **_The case for open source software_**, 18F Blog, June 2018, [Blog Post](https://18f.gsa.gov/2018/07/12/the-case-for-open-source-software/)
+* **_Ambassadors of Code_**, S&TR Preview, January 2018, [Interview Video](https://www.youtube.com/watch?v=nTxMn1NWHQU)
+* **_How one national lab is opening up code without compromising national security_**, FedScoop Post, September 2016, [Article](https://www.fedscoop.com/livermore-national-laboratory-open-source-github-2016/)
 
 ### Technical Reports
 
-* R. Cook, E. Dube, **I. Lee**, L. Nau, C. Sherada, and F. Wang, <a href="https://codesign.llnl.gov/pdfs/ExascaleProgrammingModelSurvey2011.pdf">*Survey of Novel Programming Models for Parallelizing Applications at Exascale*</a>, LLNL-TR-515971, Lawrence Livermore National Laboratory, November 2011
+* R. Cook, E. Dube, **I. Lee**, L. Nau, C. Sherada, and F. Wang, **_Survey of Novel Programming Models for Parallelizing Applications at Exascale_**, LLNL-TR-515971, Lawrence Livermore National Laboratory, November 2011, [Report](https://codesign.llnl.gov/pdfs/ExascaleProgrammingModelSurvey2011.pdf)
 
 ### Posters
 
-* **I. Lee** and P. Top, *Real Time Video Tracking on CUDA-Accelerated GPUs*, Lawrence Livermore National Laboratory, Summer Student Poster Symposium, Livermore, CA, August 2010
-* **I. Lee**, *Pixel Based Lithography on NVIDIA GPUs*, ACM Student Research Competition, Design Automation Conference (DAC 2010), Anaheim, CA, June 2010
-* **I. Lee**, J. Renau, and J. Mahai, <a href="https://surf-it.soe.ucsc.edu/node/82">*Making the Most of your Hardware: Micro-Benchmarks on NVIDIA GPUs*</a>, SURF-IT Poster Presentation, University of California - Santa Cruz, Santa Cruz, CA, August 2008
+* **I. Lee** and P. Top, **_Real Time Video Tracking on CUDA-Accelerated GPUs_**, Lawrence Livermore National Laboratory, Summer Student Poster Symposium, Livermore, CA, August 2010
+* **I. Lee**, **_Pixel Based Lithography on NVIDIA GPUs_**, ACM Student Research Competition, Design Automation Conference (DAC 2010), Anaheim, CA, June 2010
+* **I. Lee**, J. Renau, and J. Mahai, **_Making the Most of your Hardware: Micro-Benchmarks on NVIDIA GPUs_**, SURF-IT Poster Presentation, University of California - Santa Cruz, Santa Cruz, CA, August 2008, [Poster](https://surf-it.soe.ucsc.edu/node/82)
 
 ## Education
 
