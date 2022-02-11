@@ -41,6 +41,27 @@ can make a difference._
 
 ### Lawrence Livermore National Laboratory
 
+#### Web Services Team Lead, Livermore Computing, November 2021 - Present
+
+* Lead team of engineers responisble for maintaining suite of web services supporting
+  ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub,
+  Apache, and Nginx services.
+* Serve as lead engineer for deployments and automation, having implemented improvements
+  to bring service downtimes to (<10) minutes rather than hours.
+* Direct and oversee efforts to modernize web technology stack including investigations
+  into application of continuous integration and containerization to support improved
+  reliability and ease of maintainence of services.
+
+#### Security Operations Team Lead, Livermore Computing, October 2021 - Present
+
+* Identify gaps and areas for improvement in the overall security posture of Livermore
+  Computing (LC) High Performance Computing (HPC) center.
+* Lead team of engineers focused on continuous monitoring of HPC environment, including:
+  system health and performance monitoring, security monitoring for malicious or
+  undesirable activity, detection and response to issues that arise.
+* Set direction and vision of center wide improvements to automation, including
+  modernizing developer workflows around secure DevOps practices.
+
 #### Alternate Organization Information System Security Officer (AOISSO), Computation Directorate, April 2018 - Present
 
 * Responsible for overall security of Livermore Computing (LC) High Performance
