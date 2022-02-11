@@ -14,14 +14,14 @@ can make a difference._
 
 #### Web Services Team Lead, Livermore Computing, November 2021 - Present
 
-* Lead team of engineers responisble for maintaining suite of web services supporting
+* Lead team of engineers responsible for maintaining suite of web services supporting
   ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub,
   Apache, and Nginx services.
 * Serve as lead engineer for deployments and automation, having implemented improvements
   to bring service downtimes to (<10) minutes rather than hours.
 * Direct and oversee efforts to modernize web technology stack including investigations
   into application of continuous integration and containerization to support improved
-  reliability and ease of maintainence of services.
+  reliability and ease of maintenance  of services.
 
 #### Security Operations Team Lead, Livermore Computing, October 2021 - Present
 
