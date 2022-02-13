@@ -12,41 +12,44 @@ can make a difference._
 
 ### Lawrence Livermore National Laboratory (June 2010 - Present)
 
-#### Security Operations Team Lead
+#### ↪ Security Operations Team Lead
 
 _Livermore Computing, October 2021 - Present_
 
 * Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
 * Leads team of engineers focused on continuous monitoring of HPC environment, including: monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
 * Sets direction and vision of center wide improvements to automation, including: modernizing developer workflows around secure DevOps practices.
-
-#### Alternate Organization Information System Security Officer (AOISSO)
-
-_Computing Directorate, April 2018 - Present_
-
-* Responsible for overall security of Livermore Computing (LC) High Performance Computing (HPC) center.
-* Ensures and tracks compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
-* Encourages and directs process improvement and automation of security efforts within Livermore Computing.
-
-#### Cyber Assessment Coordinator
-
-_Livermore Computing, November 2016 - Present_
-
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
+
+**... as Cyber Assessment Coordinator**
+
+<!-- _Livermore Computing, November 2016 - Present_ -->
+
 * Monitors relevant security vulnerability and threat intelligence feeds from vendors, LLNL Cyber Security Program (CSP), and other sources.
 * Monitors industry accepted standards for configurations and services, and help define LC best methods and practices.
 * Provides technical guidance on new technologies and innovations that impact the security posture of LC systems.
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
 
-#### Web Services Team Lead
+**... as Alternate Organization Information System Security Officer (AOISSO)**
+
+<!-- _Computing Directorate, April 2018 - Present_ -->
+
+* Responsible for overall security of Livermore Computing (LC) High Performance Computing (HPC) center.
+* Ensures and tracks compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
+* Encourages and directs process improvement and automation of security efforts within Livermore Computing.
+
+#### ↪ Web Services Team Lead
 
 _Livermore Computing, November 2021 - Present_
 
 * Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub, Apache, and Nginx services.
-* Serves as lead engineer for deployments and automation, having implemented improvements to bring service downtimes to (<10) minutes rather than hours.
 * Directs and oversees efforts to modernize web technology stack including investigations into application of continuous integration and containerization to support improved reliability and ease of maintenance  of services.
 
-#### Open Source Evangelist
+**... as Senior Engineer**
+
+* Serves as lead engineer for deployments and automation, having implemented improvements to bring service downtimes to (<10) minutes rather than hours.
+
+#### ↪ Open Source Evangelist
 
 _February 2015 - Present_
 
@@ -55,6 +58,7 @@ _February 2015 - Present_
 * Oversees and maintains [LLNL Software Catalog](https://software.llnl.gov).
 * Primary Administrator for [LLNL GitHub Organization](https://github.com/llnl).
 
+<!-- Good for the overall history of how I got to where I am, but not as important given the roles that replaced / superseded this one
 #### Information System Security Officer (ISSO)
 
 _Livermore Computing, April 2018 - January 2019_
@@ -62,31 +66,25 @@ _Livermore Computing, April 2018 - January 2019_
 * Responsible for overall security of Livermore Computing (LC) High Performance Computing (HPC) center.
 * Ensured and tracked compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
 * Led LC Security Task Force meeting to discuss, address, and guide cyber security direction of LC.
+-->
 
-#### Computer Engineer, Livermore Computing
+#### ↪ Computer Engineer
 
-_November 2015 - November 2016_
+_October 2012 - November 2016_
 
-* As an application developer, provided support and technical guidance to LLNL code teams.
-* Developed and supported Python packaging for integration with Livermore Computing resources and clusters.
-* Administered six Atlassian instances running across various networks, serving approximately 3,000 end users.
-
-#### Computer Engineer
-
+<!--
+_Livermore Computing, November 2015 - November 2016_
+_Institutional Atlassian Suite, May 2013 - April 2018_
 _Persistics, October 2012 - November 2015_
+-->
 
-* Proposed and led effort to move custom analytic tools into cloud based SaaS architecture to allow migration away from stove-piped solutions for common analysis efforts.
+* Provided software development support and technical guidance to LLNL code teams; developed and supported Python packaging for developer integration with high performance computing resources and clusters.
+* Advocated for adoption of and trained fellow staff on modern software development technologies, including: Git, Stash/BitBucket, Open Source development, and workflow management
+* Administered six Atlassian instances running across various networks, serving approximately 3,000 end users.
 * Provided critical support and direction on topics including H264 video compression, object tracking, CUDA / GPU development, and full system design optimizations.
 * Led redesign of code base (~ 0.5 million LOC) from custom build script over to CMake while reducing the complexity of the code in the process.
 
-#### Administrator
-
-_Institutional Atlassian Suite, May 2013 - April 2018_
-
-* Volunteered to lead administration and advocacy for institutional instance of Atlassian tool suite supporting Engineering and Global Security divisions of the laboratory.
-* Made several presentations on technologies including Git, Stash/BitBucket, and workflow management to laboratory personnel.
-
-#### Summer Intern
+#### ↪ Summer Intern
 
 _June 2010 - October 2012_
 
@@ -135,10 +133,14 @@ _June 2010 - October 2012_
 
 ### Consulting Work
 
+_November 2018 - Present_
+
 * Provides cyber security consulting services for businesses and individuals looking to get ahead of the next cyber threat.
 * Offers penetration testing and vulnerability assessments, analyzing networks for opportunities a hacker would use to gain access to important or sensitive data on your network.
 * Serves as a Subject Matter Expert on a variety of cybersecurity areas as a 1099 contractor, including: vulnerability assessments, internal penetration tests, and training course development & review.
 
+
+<!--
 ### InGuardians
 
 _June 2021 - Present_
@@ -160,6 +162,7 @@ _November 2018 - Present_
 
 * Serve as a 1099 contractor with SANS.
 * Subject Matter Expert performing course reviews for SANS Cybersecurity training courses.
+-->
 
 ## Publications
 
