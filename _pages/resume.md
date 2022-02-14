@@ -79,7 +79,7 @@ _Persistics, October 2012 - November 2015_
 -->
 
 * Provided software development support and technical guidance to LLNL code teams; developed and supported Python packaging for developer integration with high performance computing resources and clusters.
-* Advocated for adoption of and trained fellow staff on modern software development technologies, including: Git, Stash/BitBucket, Open Source development, and workflow management
+* Advocated for adoption of and trained fellow staff on modern software development technologies, including: Git, Stash/Bitbucket, Open Source development, and workflow management
 * Administered six Atlassian instances running across various networks, serving approximately 3,000 end users.
 * Provided critical support and direction on topics including H264 video compression, object tracking, CUDA / GPU development, and full system design optimizations.
 * Led redesign of code base (~ 0.5 million LOC) from custom build script over to CMake while reducing the complexity of the code in the process.
@@ -246,7 +246,7 @@ University of Connecticut, Storrs, CT
     * [pycodestyle](https://github.com/pycqa/pycodestyle)
 * GitHub: <https://github.com/IanLee1521>
 * GitLab: <https://gitlab.com/IanLee1521>
-* BitBucket: <https://bitbucket.org/IanLee1521>
+* Bitbucket: <https://bitbucket.org/IanLee1521>
 
 ### Memberships / Organizations
 
