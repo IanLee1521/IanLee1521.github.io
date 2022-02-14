@@ -16,8 +16,8 @@ can make a difference._
 
 _Livermore Computing, October 2021 - Present_
 
-* Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
 * Leads team of engineers focused on continuous monitoring of HPC environment, including: monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
+* Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
 * Sets direction and vision of center wide improvements to automation, including: modernizing developer workflows around secure DevOps practices.
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
 
@@ -43,7 +43,7 @@ _Livermore Computing, October 2021 - Present_
 _Livermore Computing, November 2021 - Present_
 
 * Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub, Apache, and Nginx services.
-* Directs and oversees efforts to modernize web technology stack including investigations into application of continuous integration and containerization to support improved reliability and ease of maintenance  of services.
+* Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance  of services.
 
 **... as Senior Engineer**
 
@@ -137,8 +137,7 @@ _November 2018 - Present_
 
 * Provides cyber security consulting services for businesses and individuals looking to get ahead of the next cyber threat.
 * Offers penetration testing and vulnerability assessments, analyzing networks for opportunities a hacker would use to gain access to important or sensitive data on your network.
-* Serves as a Subject Matter Expert on a variety of cybersecurity areas as a 1099 contractor, including: vulnerability assessments, internal penetration tests, and training course development & review.
-
+* Serves as a Subject Matter Expert in a variety of cybersecurity areas as a 1099 contractor, including: vulnerability assessments, internal penetration tests, and training course development & review.
 
 <!--
 ### InGuardians
