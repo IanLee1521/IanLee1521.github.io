@@ -138,6 +138,9 @@ _November 2018 - Present_
 * Provides cyber security consulting services for businesses and individuals looking to get ahead of the next cyber threat.
 * Offers penetration testing and vulnerability assessments, analyzing networks for opportunities a hacker would use to gain access to important or sensitive data on your network.
 * Serves as a Subject Matter Expert in a variety of cybersecurity areas as a 1099 contractor, including: vulnerability assessments, internal penetration tests, and training course development & review.
+  * SANS, _November 2018 - Present_
+  * Black Hills Information Security, _October 2020 - Present_
+  * InGuardians, _June 2021 - Present_
 
 <!--
 ### InGuardians
