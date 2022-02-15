@@ -202,7 +202,7 @@ _November 2018 - Present_
 
 ### Technical Reports
 
-* R. Cook, E. Dube, **I. Lee**, L. Nau, C. Sherada, and F. Wang, **_Survey of Novel Programming Models for Parallelizing Applications at Exascale_**, LLNL-TR-515971, Lawrence Livermore National Laboratory, November 2011, [Report](https://codesign.llnl.gov/pdfs/ExascaleProgrammingModelSurvey2011.pdf)
+* R. Cook, E. Dube, **I. Lee**, L. Nau, C. Sherada, and F. Wang, **_Survey of Novel Programming Models for Parallelizing Applications at Exascale_**, LLNL-TR-515971, Lawrence Livermore National Laboratory, November 2011, [Report](https://www.osti.gov/servlets/purl/1107306)
 
 <!-- Comment out posters as not relevant in 2022
 ### Posters
