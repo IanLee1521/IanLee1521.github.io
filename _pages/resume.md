@@ -21,7 +21,7 @@ _Livermore Computing, October 2021 - Present_
 * Sets direction and vision of center wide improvements to automation, including: modernizing developer workflows around secure DevOps practices.
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
 
-**... as Cyber Assessment Coordinator**
+**... as Cyber Assessment Coordinator**, _(since November 2016)_
 
 <!-- _Livermore Computing, November 2016 - Present_ -->
 
@@ -30,7 +30,7 @@ _Livermore Computing, October 2021 - Present_
 * Provides technical guidance on new technologies and innovations that impact the security posture of LC systems.
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
 
-**... as Alternate Organization Information System Security Officer (AOISSO)**
+**... as Alternate Organization Information System Security Officer (AOISSO)** , _(since April 2018)_
 
 <!-- _Computing Directorate, April 2018 - Present_ -->
 
@@ -45,7 +45,7 @@ _Livermore Computing, November 2021 - Present_
 * Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub, Apache, and Nginx services.
 * Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance  of services.
 
-**... as Senior Engineer**
+**... as Senior Engineer** , _(since October 2015)_
 
 * Serves as lead engineer for deployments and automation, having implemented improvements to bring service downtimes to (<10) minutes rather than hours.
 
