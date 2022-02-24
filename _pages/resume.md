@@ -5,8 +5,7 @@ permalink: /resume/
 
 ## Why
 
-_To leave things better than I found them, so that those around me believe they
-can make a difference._
+_To leave things better than I found them, so that those around me believe they can make a difference._
 
 ## Employment
 
@@ -43,11 +42,12 @@ _Livermore Computing, October 2021 - Present_
 _Livermore Computing, November 2021 - Present_
 
 * Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub, Apache, and Nginx services.
-* Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance  of services.
+* Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance of services.
 
 **... as Senior Engineer** , _(since October 2015)_
 
-* Serves as lead engineer for deployments and automation, having implemented improvements to bring service downtimes to (<10) minutes rather than hours.
+* Serves as lead engineer for deployments and automation; implemented improvements to bring service downtimes to (<10) minutes rather than hours.
+* Increased deployment rate from quarterly to monthly for web service releases.
 
 #### ↪ Open Source Evangelist
 
@@ -81,8 +81,10 @@ _Persistics, October 2012 - November 2015_
 * Provided software development support and technical guidance to LLNL code teams; developed and supported Python packaging for developer integration with high performance computing resources and clusters.
 * Advocated for adoption of and trained fellow staff on modern software development technologies, including: Git, Stash/Bitbucket, Open Source development, and workflow management
 * Administered six Atlassian instances running across various networks, serving approximately 3,000 end users.
+<!--
 * Provided critical support and direction on topics including H264 video compression, object tracking, CUDA / GPU development, and full system design optimizations.
 * Led redesign of code base (~ 0.5 million LOC) from custom build script over to CMake while reducing the complexity of the code in the process.
+-->
 
 #### ↪ Summer Intern
 
