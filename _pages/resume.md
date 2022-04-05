@@ -28,6 +28,7 @@ _Livermore Computing, October 2021 - Present_
 * Monitors industry accepted standards for configurations and services, and help define LC best methods and practices.
 * Provides technical guidance on new technologies and innovations that impact the security posture of LC systems.
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
+* Authoring new DISA Security Technical Implementation Guide (STIG) for LLNL-developed "TOSS" HPC operating system.
 
 **... as Alternate Organization Information System Security Officer (AOISSO)** , _(since April 2018)_
 
