@@ -15,22 +15,22 @@ _To leave things better than I found them, so that those around me believe they 
 
 _Livermore Computing, October 2021 - Present_
 
-* Leads team of engineers focused on continuous monitoring of HPC environment, including: monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
+* Leads team of engineers focused on continuous monitoring of HPC environment, including monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
 * Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
-* Sets direction and vision of center wide improvements to automation, including: modernizing developer workflows around secure DevOps practices.
+* Sets direction and vision of center wide improvements to automation, including modernizing developer workflows around secure DevOps practices.
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
 
-**... as Cyber Assessment Coordinator**, _(since November 2016)_
+**... as Cyber Assessment Coordinator**, _(November 2016 - Present)_
 
 <!-- _Livermore Computing, November 2016 - Present_ -->
 
 * Monitors relevant security vulnerability and threat intelligence feeds from vendors, LLNL Cyber Security Program (CSP), and other sources.
-* Monitors industry accepted standards for configurations and services, and help define LC best methods and practices.
-* Provides technical guidance on new technologies and innovations that impact the security posture of LC systems.
+* Defines LC best practices and processes based on industry accepted configuration standards.
+* Provides technical guidance on technologies and innovations that impact the security posture of LC systems.
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
 * Authoring new DISA Security Technical Implementation Guide (STIG) for LLNL-developed "TOSS" HPC operating system.
 
-**... as Alternate Organization Information System Security Officer (AOISSO)** , _(since April 2018)_
+**... as Alternate Organization Information System Security Officer (AOISSO)**, _(April 2018 - Present)_
 
 <!-- _Computing Directorate, April 2018 - Present_ -->
 
@@ -42,10 +42,10 @@ _Livermore Computing, October 2021 - Present_
 
 _Livermore Computing, November 2021 - Present_
 
-* Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including: Atlassian (Confluence, Jira, Crowd), GitLab, Jupyterhub, Apache, and Nginx services.
+* Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including Atlassian (Confluence, Jira, Crowd), GitLab, JupyterHub, Apache, and Nginx services.
 * Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance of services.
 
-**... as Senior Engineer** , _(since October 2015)_
+**... as Senior Engineer**, _(October 2015 - Present)_
 
 * Serves as lead engineer for deployments and automation; implemented improvements to bring service downtimes to (<10) minutes rather than hours.
 * Increased deployment rate from quarterly to monthly for web service releases.
@@ -82,6 +82,7 @@ _Persistics, October 2012 - November 2015_
 * Provided software development support and technical guidance to LLNL code teams; developed and supported Python packaging for developer integration with high performance computing resources and clusters.
 * Advocated for adoption of and trained fellow staff on modern software development technologies, including: Git, Stash/Bitbucket, Open Source development, and workflow management
 * Administered six Atlassian instances running across various networks, serving approximately 3,000 end users.
+
 <!--
 * Provided critical support and direction on topics including H264 video compression, object tracking, CUDA / GPU development, and full system design optimizations.
 * Led redesign of code base (~ 0.5 million LOC) from custom build script over to CMake while reducing the complexity of the code in the process.
@@ -178,7 +179,7 @@ _November 2018 - Present_
 * **_At the heart of a Supercomputer, is Open Source Software_**, RedHat OPEN FIRST DC, September 2018
 * **_How Open Source Supports the Largest Computers on the Planet_**, DOE Exascale Computing Project Best Practices Webinar, July 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-software-supports-the-largest-computers-on-the-planet), [Video](https://www.youtube.com/watch?v=8sCUWXopEjI)
 * **_How Open Source Collaboration Benefits Cyber Security_**, Department of Energy CyberCon, June 2018, [Slides](https://speakerdeck.com/ianlee1521/how-open-source-benefits-cyber-security)
-* **_Open Source in Service to National Security_**, Code For America / Code.gov Meetup, May 2018, [Slides](https://speakerdeck.com/ianlee1521/ambassadors-of-code-open-source-in-service-to-national-security)
+* **_Open Source in Service to National Security_**, Code for America / Code.gov Meetup, May 2018, [Slides](https://speakerdeck.com/ianlee1521/ambassadors-of-code-open-source-in-service-to-national-security)
 * **_Your Secrets are Showing! How to find if your developers are leaking secrets_**, BSidesSF 2018, April 2018, [Slides](https://speakerdeck.com/ianlee1521/your-secrets-are-showing), [Video](https://www.youtube.com/watch?v=fOG9cHaK_O4)
 * **_2018 State of Open Source_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, March 2018, [Slides](https://speakerdeck.com/ianlee1521/2018-state-of-open-source-at-llnl)
 * **_Open Source Workflows at LLNL_**, Code.gov Bi-weekly Call, January 2018, [Slides](https://speakerdeck.com/ianlee1521/open-source-workflows-at-llnl)
