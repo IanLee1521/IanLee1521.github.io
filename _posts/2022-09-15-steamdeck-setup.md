@@ -5,65 +5,14 @@ tags: ["steamdeck", "emudeck"]
 # header:
 #     overlay_image: ""
 #     show_overlay_excerpt: false
-published: false
+published: true
 ---
 
-I had the opportunity to borrow a friend's Steam Deck for about a month in July, but
-now I have my own!
+I had the opportunity to borrow a friend's Steam Deck for about a month in July, but now I have my own!
 
 ## Overview
 
-Here are the steps that I went through to installing and configuring EmuDeck for my
-emulation needs.
-
-### Installing EmuDeck
-
-- Boot in to desktop mode
-- Install Firefox
-- Google for `emudeck`
-    - end up at <https://emudeck.com/>
-- Open file browser
-    - execute the `EmuDeck.desktop` file
-    - I selected `Easy Mode` during installation
-- Ends with:
-
-    > Remember to add your games here:
-    > `/home/deck/Emulation/roms`
-    >
-    > And your Bios (PS1, PS2, Yuzu, Ryujinx) here:
-    > `/home/deck/Emulation/bios`
-- Open ROM manager
-
-
-### Set `deck` user password
-
-- Open `Konsole` app
-- type `passwd` and set a new password
-
-### Installing Emulators / Files
-
-- Turn on sshd with `sudo systemctl start sshd`
-    - Check your ip address with `ip a`
-- Sync roms and bios files from main computer
-
-    ```bash
-    cd $PATH_TO_ROMS  # "/mnt/c/Documents and Settings/Ian Lee/OneDrive/Documents/Emulation/"
-    rsync -av ./bios/ deck@192.168.1.50:Emulation/bios/
-    rsync -av ./roms/ deck@192.168.1.50:Emulation/roms/
-    rsync -av ./saves/ deck@192.168.1.50:Emulation/saves/
-    ```
-
-### Configure Emulators
-
-- Exit Steam
-- Open `Steam ROM Manager`
-- Enable / Disable any parsers (emulators) you don't want down the left sidebar
-- Go to "Preview"
-    - Click "Generate app list"
-    - Adjust any game art you want
-    - Click "Save app list"
-- Close installer window (if not already)
-- Execute "Return to Gaming Mode" from the desktop
+Here are the steps that I went through to installing and configuring EmuDeck for my emulation needs.
 
 From: <https://www.emudeck.com/#how_to_install> --
 
@@ -74,3 +23,52 @@ From: <https://www.emudeck.com/#how_to_install> --
 > 5. Close Steam Rom Manager and the Installer window, click on "Return to game mode" on your desktop and you are good to go!
 >
 > BONUS: You can use EmuDeck with EmulationStation right out of the box, no configuration needed! After you run Steam Rom Manager you will see it on Steam in a new Emulation Collection
+
+### Installing EmuDeck
+
+- Boot in to desktop mode
+- Install `Firefox`
+    - Click on the icon in the taskbar at the bottom of the screen
+- Go to <https://www.emudeck.com/#download> and click "Download app"
+- Open file browser
+    - Execute the `EmuDeck.desktop` file (probably in your `$HOME/Downloads` folder)
+    - I selected `Easy Mode` during installation
+- Ends with:
+    > Remember to add your games here:
+    > `/home/deck/Emulation/roms`
+    >
+    > And your Bios (PS1, PS2, Yuzu, Ryujinx) here:
+    > `/home/deck/Emulation/bios`
+
+
+### Setup `deck` user / Enable sshd
+
+Rather than use a microSD card for moving things around, I opted to use the fact that the Steam Deck is running Linux, and simply use the built in SSH daemon.
+
+- Open `Konsole` app
+- type `passwd` and set a new password
+- Turn on `sshd` with `sudo systemctl start sshd`
+    - Check your ip address with `ip a`
+
+### Installing Emulators / Files
+
+Sync bios, roms, and saves files from main computer.
+
+```bash
+cd $PATH_TO_ROMS  # /mnt/c/Documents and Settings/Ian Lee/OneDrive/Documents/Emulation/
+rsync -av ./bios/ deck@192.168.1.50:Emulation/bios/
+rsync -av ./roms/ deck@192.168.1.50:Emulation/roms/
+rsync -av ./saves/ deck@192.168.1.50:Emulation/saves/
+```
+
+### Configure Emulators
+
+- In the taskbar, right click the Steam icon and `Exit Steam`
+- Open `Steam ROM Manager`
+- Enable / Disable any parsers (emulators) you don't want down the left sidebar
+- Go to `Preview`
+    - Click `Generate app list`
+    - Adjust any game art you want
+    - Click `Save app list`
+- Close installer window (if not already)
+- Execute `Return to Gaming Mode` from the desktop
