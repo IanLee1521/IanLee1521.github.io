@@ -11,7 +11,7 @@ _To leave things better than I found them, so that those around me believe they 
 
 ### Lawrence Livermore National Laboratory (June 2010 - Present)
 
-#### ↪ Security Operations Team Lead
+#### ↪ HPC Security Architect & Security Operations Team Lead
 
 _Livermore Computing, October 2021 - Present_
 
@@ -30,7 +30,7 @@ _Livermore Computing, October 2021 - Present_
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
 * Authoring new DISA Security Technical Implementation Guide (STIG) for LLNL-developed "TOSS" HPC operating system.
 
-**... as Alternate Organization Information System Security Officer (AOISSO)**, _(April 2018 - Present)_
+**... as Alternate Organization Information System Security Officer (AOISSO)**, _(April 2018 - August 2022)_
 
 <!-- _Computing Directorate, April 2018 - Present_ -->
 
@@ -142,9 +142,9 @@ _November 2018 - Present_
 * Provides cyber security consulting services for businesses and individuals looking to get ahead of the next cyber threat.
 * Offers penetration testing and vulnerability assessments, analyzing networks for opportunities a hacker would use to gain access to important or sensitive data on your network.
 * Serves as a Subject Matter Expert in a variety of cybersecurity areas as a 1099 contractor, including: vulnerability assessments, internal penetration tests, and training course development & review.
-  * SANS, _November 2018 - Present_
-  * Black Hills Information Security, _October 2020 - Present_
-  * InGuardians, _June 2021 - Present_
+    * SANS, _November 2018 - Present_
+    * Black Hills Information Security, _October 2020 - Present_
+    * InGuardians, _June 2021 - Present_
 
 <!--
 ### InGuardians
