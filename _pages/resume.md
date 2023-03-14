@@ -172,8 +172,18 @@ _November 2018 - Present_
 
 ## Publications
 
+### Security Technical Implementation Guides (STIG)
+
+* **_Tri-Lab Operating System Stack (TOSS) 4 STIG_**, DISA, [Announcement](https://public.cyber.mil/announcement/disa-releases-the-toss-4-security-technical-implementation-guide/)
+
 ### Presentations
 
+* **_Keeping It All Safe: LLNL HPC Security Architecture_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/keeping-it-all-safe-llnl-hpc-security-architecture)
+* **_Development of the TOSS 4 STIG_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/development-of-the-toss-4-stig)
+* **_You Must Unlearn What You Have Learned_**, ElasticON Public Sector, February 2023, [Slides](https://speakerdeck.com/ianlee1521/you-must-unlearn-what-you-have-learned), [Video](https://www.elastic.co/elasticon/archive/2023/public-sector/washington-dc/lawrence-livermore-national-laboratory-you-must-unlearn-what-you-have-learned)
+* **_Addressing Cybersecurity Standards / Policies in HPC Environments_**, Supercomputing 2021 Birds of a Feather, November 2021, [Slides](https://speakerdeck.com/ianlee1521/policies-in-hpc-environments)
+* **_Intro to Git for Security Professionals Workshop_**, Wild West Hackin Fest Way West, June 2021, [Slides](https://speakerdeck.com/ianlee1521/intro-to-git-for-security-professionals-wwhf-ww-2021)
+* **_Releasing Your First (Python) Open Source Project to the Masses!_**, Wild West Hackin Cast, January 2021, [Slides](https://speakerdeck.com/ianlee1521/releasing-your-first-python-open-source-project-to-the-masses)
 * **_Intro to Git for Security Professionals Workshop_**, Wild West Hackin Fest, September 2020, [Slides](https://speakerdeck.com/ianlee1521/intro-to-git-for-security-professionals)
 * **_Post Exploitation in Developer Environments_**, SANS Pen Test Hack Fest Summit, November 2018, [Slides](https://speakerdeck.com/ianlee1521/post-exploitation-in-developer-environments)
 * **_At the heart of a Supercomputer, is Open Source Software_**, RedHat OPEN FIRST DC, September 2018
