@@ -20,7 +20,7 @@ _Livermore Computing, October 2021 - Present_
 * Sets direction and vision of center wide improvements to automation, including modernizing developer workflows around secure DevOps practices.
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
 
-**... as Cyber Assessment Coordinator**, _(November 2016 - Present)_
+**... as Cyber Assessment Coordinator**, _November 2016 - Present_
 
 <!-- _Livermore Computing, November 2016 - Present_ -->
 
@@ -30,7 +30,7 @@ _Livermore Computing, October 2021 - Present_
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
 * Authoring new DISA Security Technical Implementation Guide (STIG) for LLNL-developed "TOSS" HPC operating system.
 
-**... as Alternate Organization Information System Security Officer (AOISSO)**, _(April 2018 - August 2022)_
+**... as Alternate Organization Information System Security Officer (AOISSO)**, _April 2018 - August 2022_
 
 <!-- _Computing Directorate, April 2018 - Present_ -->
 
@@ -40,12 +40,12 @@ _Livermore Computing, October 2021 - Present_
 
 #### ↪ Web Services Team
 
-**... as Team Lead**, _(November 2021 - June 2022)_
+**... as Team Lead**, _November 2021 - June 2022_
 
 * Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including Atlassian (Confluence, Jira, Crowd), GitLab, JupyterHub, Apache, and Nginx services.
 * Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance of services.
 
-**... as Senior Engineer**, _(October 2015 - Present)_
+**... as Senior Engineer**, _October 2015 - Present_
 
 * Serves as lead engineer for deployments and automation; implemented improvements to bring service downtimes to (<10) minutes rather than hours.
 * Increased deployment rate from quarterly to monthly for web service releases.
