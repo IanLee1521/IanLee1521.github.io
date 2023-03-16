@@ -38,9 +38,9 @@ _Livermore Computing, October 2021 - Present_
 * Ensures and tracks compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
 * Encourages and directs process improvement and automation of security efforts within Livermore Computing.
 
-#### ↪ Web Services Team Lead
+#### ↪ Web Services Team
 
-_Livermore Computing, November 2021 - Present_
+**... as Team Lead**, _(November 2021 - June 2022)_
 
 * Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including Atlassian (Confluence, Jira, Crowd), GitLab, JupyterHub, Apache, and Nginx services.
 * Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance of services.
@@ -88,11 +88,13 @@ _Persistics, October 2012 - November 2015_
 * Led redesign of code base (~ 0.5 million LOC) from custom build script over to CMake while reducing the complexity of the code in the process.
 -->
 
+<!--
 #### ↪ Summer Intern
 
 _June 2010 - October 2012_
 
 * Supported a variety of projects in areas including: image processing, GPU code development, Django web application development and parallel computing evaluations.
+-->
 
 <!-- Don't really need to show a ton of detail about the internships any more in 2022
 #### Summer Intern, Persistics, June 2012 - October 2012
@@ -174,7 +176,7 @@ _November 2018 - Present_
 
 ### Security Technical Implementation Guides (STIG)
 
-* **_Tri-Lab Operating System Stack (TOSS) 4 STIG_**, DISA, [Announcement](https://public.cyber.mil/announcement/disa-releases-the-toss-4-security-technical-implementation-guide/)
+* **_Tri-Lab Operating System Stack (TOSS) 4 STIG_**, DISA, December 2022, [Announcement](https://public.cyber.mil/announcement/disa-releases-the-toss-4-security-technical-implementation-guide/), [Direct Download](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_TOSS_4_V1R1_STIG.zip)
 
 ### Presentations
 
