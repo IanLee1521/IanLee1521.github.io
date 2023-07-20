@@ -19,6 +19,7 @@ _Livermore Computing, October 2021 - Present_
 * Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
 * Sets direction and vision of center wide improvements to automation, including modernizing developer workflows around secure DevOps practices.
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
+* Authored new DISA Security Technical Implementation Guide (STIG) for LLNL-developed ["TOSS" HPC operating system](https://hpc.llnl.gov/toss).
 
 **... as Cyber Assessment Coordinator**, _November 2016 - Present_
 
@@ -28,7 +29,6 @@ _Livermore Computing, October 2021 - Present_
 * Defines LC best practices and processes based on industry accepted configuration standards.
 * Provides technical guidance on technologies and innovations that impact the security posture of LC systems.
 * Performs penetration testing against LC systems and provide feedback to staff and management on findings and remediation steps.
-* Authoring new DISA Security Technical Implementation Guide (STIG) for LLNL-developed "TOSS" HPC operating system.
 
 **... as Alternate Organization Information System Security Officer (AOISSO)**, _April 2018 - August 2022_
 
@@ -40,15 +40,15 @@ _Livermore Computing, October 2021 - Present_
 
 #### ↪ Web Services Team
 
-**... as Team Lead**, _November 2021 - June 2022_
-
-* Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including Atlassian (Confluence, Jira, Crowd), GitLab, JupyterHub, Apache, and Nginx services.
-* Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance of services.
-
 **... as Senior Engineer**, _October 2015 - Present_
 
 * Serves as lead engineer for deployments and automation; implemented improvements to bring service downtimes to (<10) minutes rather than hours.
 * Increased deployment rate from quarterly to monthly for web service releases.
+
+**... as Team Lead**, _November 2021 - June 2022_
+
+* Leads team of engineers responsible for maintaining suite of web services supporting ~ 3,000 users, including Atlassian (Confluence, Jira, Crowd), GitLab, JupyterHub, Apache, and Nginx services.
+* Directs and oversees efforts to modernize web technology stack including investigations into continuous integration and containerization to support improved reliability and ease of maintenance of services.
 
 #### ↪ Open Source Evangelist
 
@@ -180,6 +180,7 @@ _November 2018 - Present_
 
 ### Presentations
 
+* **_Building DevOps into HPC System Administration_**, NLIT / S3C, June 2023, [Slides](https://speakerdeck.com/ianlee1521/building-devops-into-hpc-system-administration)
 * **_Keeping It All Safe: LLNL HPC Security Architecture_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/keeping-it-all-safe-llnl-hpc-security-architecture)
 * **_Development of the TOSS 4 STIG_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/development-of-the-toss-4-stig)
 * **_You Must Unlearn What You Have Learned_**, ElasticON Public Sector, February 2023, [Slides](https://speakerdeck.com/ianlee1521/you-must-unlearn-what-you-have-learned), [Video](https://www.elastic.co/elasticon/archive/2023/public-sector/washington-dc/lawrence-livermore-national-laboratory-you-must-unlearn-what-you-have-learned)
@@ -260,9 +261,10 @@ University of Connecticut, Storrs, CT
 
 * Primary Administrator for [LLNL GitHub Organization](https://github.com/LLNL)
 * Lead / Core Maintainer:
+    * [toss-stig](https://github.com/llnl/toss-stig)
+    * [scraper](https://github.com/LLNL/scraper)
     * [pshtt](https://github.com/dhs-ncats/pshtt)
     * [domain-scan](https://github.com/18F/domain-scan)
-    * [scraper](https://github.com/LLNL/scraper)
     * [pycodestyle](https://github.com/pycqa/pycodestyle)
 * GitHub: <https://github.com/IanLee1521>
 * GitLab: <https://gitlab.com/IanLee1521>
