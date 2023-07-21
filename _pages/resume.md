@@ -13,7 +13,7 @@ _To leave things better than I found them, so that those around me believe they 
 
 #### ↪ HPC Security Architect & Security Operations Team Lead
 
-_Livermore Computing, October 2021 - Present_
+_Livermore Computing, September 2021 - Present_
 
 * Leads team of engineers focused on continuous monitoring of HPC environment, including monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
 * Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
