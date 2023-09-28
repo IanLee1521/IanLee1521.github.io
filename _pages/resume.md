@@ -275,5 +275,6 @@ University of Connecticut, Storrs, CT
 * SANS GIAC Advisory Board, 2017 - Present
 * Association for Computing Machinery (ACM), 2009 - Present
 * Institute for Electrical and Electronics Engineers (IEEE), 2008 - Present
+* [ACT-IAC Climate Change Workgroup - HPC Project](https://www.actiac.org/climate-change-workgroup-hpc-project), 2023 - Present
 
 *Resume reviewed and released by LLNL as: LLNL-MI-767054*
