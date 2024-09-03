@@ -205,7 +205,7 @@ _November 2018 - Present_
 * **_Open Source Workflows at LLNL_**, Code.gov Bi-weekly Call, January 2018, [Slides](https://speakerdeck.com/ianlee1521/open-source-workflows-at-llnl)
 * **_U.S. Adoption of HTTPS_**, CyberFest 2017, Lawrence Livermore National Laboratory, October 2017, [Slides](https://speakerdeck.com/ianlee1521/us-adoption-of-https)
 * **_Developing Open Source in Service to National Security_**, Oak Ridge National Laboratory (Invited Talk), June 2017, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security-ornl-visit)
-* **_Introduction to Git_**, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, June 2016
+* **_Introduction to Git_**, Computation Summer Scholar Program, Lawrence Livermore National Laboratory, June 2017
 * **_Developing Open Source in Service to National Security_**, University of California - Santa Cruz (Invited Talk), February 2017
 * **_Developing Open Source in Service to National Security_**, GitHub Universe, September 2016, [Slides](https://speakerdeck.com/ianlee1521/developing-open-source-in-service-to-national-security), [Video](https://www.youtube.com/watch?v=Uflvf8l0NLY)
 * **_Open Source Birds of a Feather_**, Software Improvement Networking Group, Lawrence Livermore National Laboratory, August 2016
