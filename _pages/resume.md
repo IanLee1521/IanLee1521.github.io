@@ -3,7 +3,11 @@ title: Resume
 permalink: /resume/
 ---
 
-## Why
+## Professional Summary
+
+Ian is a seasoned cybersecurity expert with over 14 years of experience, specializing in high-performance computing (HPC) environments for the past 8 years. Currently serving as HPC Security Architect at Lawrence Livermore National Laboratory, Ian leads initiatives that safeguard critical national assets. Renowned for his commitment to "leaving things better than he found them," Ian excels in operational security, secure web service deployment, system administration, software engineering, and team leadership. An active contributor to open-source communities and a published author and speaker, he is dedicated to mentoring the next generation of cybersecurity professionals and driving innovation in the field.
+
+### Why
 
 _To leave things better than I found them, so that those around me believe they can make a difference._
 
@@ -180,6 +184,9 @@ _November 2018 - Present_
 
 ### Presentations
 
+* **_DevOps in HPC_**, 4th NIST HPC Security Workshop, May 2024, [Slides](https://speakerdeck.com/ianlee1521/devops-in-hpc)
+* **_Monitoring HPC Security at LLNL_**, 4th NIST HPC Security Workshop, May 2024, [Slides](https://speakerdeck.com/ianlee1521/monitoring-hpc-security-at-llnl)
+* **_Pass On What You Have Learned: Deploying to Production_**, Elastic Public Sector Summit 2024, March 2024, [Slides](https://speakerdeck.com/ianlee1521/pass-on-what-you-have-learned-deploying-to-production)
 * **_Building DevOps into HPC System Administration_**, NLIT / S3C, June 2023, [Slides](https://speakerdeck.com/ianlee1521/building-devops-into-hpc-system-administration)
 * **_Keeping It All Safe: LLNL HPC Security Architecture_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/keeping-it-all-safe-llnl-hpc-security-architecture)
 * **_Development of the TOSS 4 STIG_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/development-of-the-toss-4-stig)
