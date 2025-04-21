@@ -5,7 +5,13 @@ permalink: /resume/
 
 ## Professional Summary
 
-Ian is a seasoned cybersecurity expert with over 14 years of experience, specializing in high-performance computing (HPC) environments for the past 8 years. Currently serving as HPC Security Architect at Lawrence Livermore National Laboratory, Ian leads initiatives that safeguard critical national assets. Renowned for his commitment to "leaving things better than he found them," Ian excels in operational security, secure web service deployment, system administration, software engineering, and team leadership. An active contributor to open-source communities and a published author and speaker, he is dedicated to mentoring the next generation of cybersecurity professionals and driving innovation in the field.
+I am a cybersecurity leader with over 15 years of experience securing some of the nation's most advanced computing environments. I currently serve as Director of Advanced Computing Solutions at ShorePoint Inc., where I lead the company’s High-Performance Computing (HPC) security efforts and contribute to strategic initiatives across AI, cloud, and critical infrastructure security.
+
+Previously, I was a Security Architect at Lawrence Livermore National Laboratory, where I designed and implemented resilient security architectures to protect national assets and mission-critical systems.
+
+I am the founder and chair of the HPC Security Technical Exchange (STX), a government-wide collaboration advancing the security of next-generation computing platforms. I'm also an active open-source contributor, published author, and advocate for mentoring the next generation of cybersecurity professionals.
+
+My work bridges deep technical expertise and practical leadership, guided by a simple WHY: "To leave things better than I found them, so that those around me believe they can make a difference."
 
 ### Why
 
@@ -13,11 +19,23 @@ _To leave things better than I found them, so that those around me believe they 
 
 ## Employment
 
-### Lawrence Livermore National Laboratory (June 2010 - Present)
+### ShorePoint, Inc. (April 2025 - Present)
+
+#### ↪ Director of Advanced Computing Solutions
+
+At ShorePoint, I lead the development and implementation of cybersecurity solutions for advanced computing environments, focusing on High-Performance Computing (HPC) security and supporting strategic initiatives across the organization's portfolio.​
+
+Key Responsibilities:
+
+- Establishing and leading ShorePoint's HPC security practice to protect critical national assets.
+- Collaborating on the Continuous Diagnostics and Mitigation (CDM) data services program to enhance federal cybersecurity resilience.
+- Driving innovation in cybersecurity strategies to address emerging threats in AI, HPC, and cloud computing domains.​
+
+### Lawrence Livermore National Laboratory (June 2010 - April 2025)
 
 #### ↪ HPC Security Architect & Security Operations Team Lead
 
-_Livermore Computing, September 2021 - Present_
+_Livermore Computing, September 2021 - April 2025_
 
 * Leads team of engineers focused on continuous monitoring of HPC environment, including monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
 * Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
@@ -25,9 +43,9 @@ _Livermore Computing, September 2021 - Present_
 * Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
 * Authored new DISA Security Technical Implementation Guide (STIG) for LLNL-developed ["TOSS" HPC operating system](https://hpc.llnl.gov/toss).
 
-**... as Cyber Assessment Coordinator**, _November 2016 - Present_
+**... as Cyber Assessment Coordinator**, _November 2016 - April 2025_
 
-<!-- _Livermore Computing, November 2016 - Present_ -->
+<!-- _Livermore Computing, November 2016 - April 2025_ -->
 
 * Monitors relevant security vulnerability and threat intelligence feeds from vendors, LLNL Cyber Security Program (CSP), and other sources.
 * Defines LC best practices and processes based on industry accepted configuration standards.
@@ -36,7 +54,7 @@ _Livermore Computing, September 2021 - Present_
 
 **... as Alternate Organization Information System Security Officer (AOISSO)**, _April 2018 - August 2022_
 
-<!-- _Computing Directorate, April 2018 - Present_ -->
+<!-- _Computing Directorate, April 2018 - April 2025_ -->
 
 * Responsible for overall security of Livermore Computing (LC) High Performance Computing (HPC) center.
 * Ensures and tracks compliance of LC systems to LLNL, DOE, and Federal Cyber Security requirements.
@@ -44,7 +62,7 @@ _Livermore Computing, September 2021 - Present_
 
 #### ↪ Web Services Team
 
-**... as Senior Engineer**, _October 2015 - Present_
+**... as Senior Engineer**, _October 2015 - April 2025_
 
 * Serves as lead engineer for deployments and automation; implemented improvements to bring service downtimes to (<10) minutes rather than hours.
 * Increased deployment rate from quarterly to monthly for web service releases.
@@ -56,7 +74,7 @@ _Livermore Computing, September 2021 - Present_
 
 #### ↪ Open Source Evangelist
 
-_February 2015 - Present_
+_February 2015 - April 2025_
 
 * Advocates for and supports the Open Source Software community at LLNL.
 * Social media agent in charge of [@LLNL_OpenSource on Twitter](https://twitter.com/llnl_opensource).
@@ -145,6 +163,7 @@ _June 2010 - October 2012_
 
 _November 2018 - Present_
 
+* Provides high quality software engineering guidance and delivery, specializing in automation of complex tasks in high complexity environments.
 * Provides cyber security consulting services for businesses and individuals looking to get ahead of the next cyber threat.
 * Offers penetration testing and vulnerability assessments, analyzing networks for opportunities a hacker would use to gain access to important or sensitive data on your network.
 * Serves as a Subject Matter Expert in a variety of cybersecurity areas as a 1099 contractor, including: vulnerability assessments, internal penetration tests, and training course development & review.
@@ -184,6 +203,7 @@ _November 2018 - Present_
 
 ### Presentations
 
+* **_HPC Security Technical Exchange 2024_**, Third International Workshop on Cyber Security in High Performance Computing (S-HPC 2024) at SuperComputing 2024, November 2024, [Slides](https://speakerdeck.com/ianlee1521/hpc-stx-overview)
 * **_DevOps in HPC_**, 4th NIST HPC Security Workshop, May 2024, [Slides](https://speakerdeck.com/ianlee1521/devops-in-hpc)
 * **_Monitoring HPC Security at LLNL_**, 4th NIST HPC Security Workshop, May 2024, [Slides](https://speakerdeck.com/ianlee1521/monitoring-hpc-security-at-llnl)
 * **_Pass On What You Have Learned: Deploying to Production_**, Elastic Public Sector Summit 2024, March 2024, [Slides](https://speakerdeck.com/ianlee1521/pass-on-what-you-have-learned-deploying-to-production)
