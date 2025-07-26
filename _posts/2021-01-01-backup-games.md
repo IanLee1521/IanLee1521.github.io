@@ -25,8 +25,8 @@ Below are the example snippets (in Powershell) showing how to configure things. 
 [Satisfactory](https://www.satisfactorygame.com/) was the first game that I did this for, and there I (for what ever reason) chose to only store [the saved game folder](https://satisfactory.gamepedia.com/Save_files), and not all the game files.
 
 ```powershell
-# Make the Junction in OneDrive pointing to the Satisfactory save data
-New-Item -ItemType Junction -Path  "$Env:USERPROFILE/OneDrive/Documents/My Games/FactoryGame/" -Target "$Env:LOCALAPPDATA/FactoryGame/Saved/"
+# Make the Junction in Satisfactory Save Folder point to OneDrive backed up version of the files
+New-Item -ItemType Junction -Path "$Env:LOCALAPPDATA/FactoryGame/Saved/SaveGames/" -Target "$Env:USERPROFILE/OneDrive/Documents/My Games/FactoryGame/SaveGames/"
 ```
 
 ## Factorio
