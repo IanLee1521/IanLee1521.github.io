@@ -206,7 +206,7 @@ _November 2018 - Present_
 * **_HPC Security Technical Exchange 2024_**, Third International Workshop on Cyber Security in High Performance Computing (S-HPC 2024) at SuperComputing 2024, November 2024, [Slides](https://speakerdeck.com/ianlee1521/hpc-stx-overview)
 * **_DevOps in HPC_**, 4th NIST HPC Security Workshop, May 2024, [Slides](https://speakerdeck.com/ianlee1521/devops-in-hpc)
 * **_Monitoring HPC Security at LLNL_**, 4th NIST HPC Security Workshop, May 2024, [Slides](https://speakerdeck.com/ianlee1521/monitoring-hpc-security-at-llnl)
-* **_Pass On What You Have Learned: Deploying to Production_**, Elastic Public Sector Summit 2024, March 2024, [Slides](https://speakerdeck.com/ianlee1521/pass-on-what-you-have-learned-deploying-to-production)
+* **_Pass On What You Have Learned: Deploying to Production_**, Elastic Public Sector Summit 2024, March 2024, [Slides](https://speakerdeck.com/ianlee1521/pass-on-what-you-have-learned-deploying-to-production), [Video](https://vimeo.com/932490625/523652406f)
 * **_Building DevOps into HPC System Administration_**, NLIT / S3C, June 2023, [Slides](https://speakerdeck.com/ianlee1521/building-devops-into-hpc-system-administration)
 * **_Keeping It All Safe: LLNL HPC Security Architecture_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/keeping-it-all-safe-llnl-hpc-security-architecture)
 * **_Development of the TOSS 4 STIG_**, 3rd NIST HPC Security Workshop, March 2023, [Slides](https://speakerdeck.com/ianlee1521/development-of-the-toss-4-stig)
