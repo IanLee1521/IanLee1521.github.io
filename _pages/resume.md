@@ -5,9 +5,9 @@ permalink: /resume/
 
 ## Professional Summary
 
-I am a cybersecurity leader with over 15 years of experience securing some of the nation's most advanced computing environments. I currently serve as Director of Advanced Computing Solutions at ShorePoint Inc., where I lead the company’s High-Performance Computing (HPC) security efforts and contribute to strategic initiatives across AI, cloud, and critical infrastructure security.
+Director of Advanced Computing Solutions with 16 years of cybersecurity experience, including 9 years securing large-scale High-Performance Computing (HPC) environments supporting national mission systems. Proven builder of security practices, standards, and cross-agency technical communities, with deep expertise spanning HPC, cloud, DevSecOps, Zero Trust, and operational security analytics. Former HPC Security Architect at Lawrence Livermore National Laboratory and co-author of the NIST SP 800-234 HPC Security Overlay. Trusted technical leader for complex federal programs, capture efforts, and delivery at scale.
 
-Previously, I was a Security Architect at Lawrence Livermore National Laboratory, where I designed and implemented resilient security architectures to protect national assets and mission-critical systems.
+Strong developer background on both internal and open-source projects allows for custom code development for new features or fixing existing applications. Proven examples both creating new applications to support government initiatives such as Scraper for the Federal Source Code Policy initiative (OMB M-16-21) and contributing to government open-source efforts such as Pshtt in support of the HTTPS-Only Standard (OMB M-15-13).
 
 I am the founder and chair of the HPC Security Technical Exchange (STX), a government-wide collaboration advancing the security of next-generation computing platforms. I'm also an active open-source contributor, published author, and advocate for mentoring the next generation of cybersecurity professionals.
 
@@ -21,15 +21,33 @@ _To leave things better than I found them, so that those around me believe they 
 
 ### ShorePoint, Inc. (April 2025 - Present)
 
-#### ↪ Director of Advanced Computing Solutions
+#### ↪ Director of Advanced Computing Solutions (April 2025 – Present)
 
-At ShorePoint, I lead the development and implementation of cybersecurity solutions for advanced computing environments, focusing on High-Performance Computing (HPC) security and supporting strategic initiatives across the organization's portfolio.​
+Practice Leadership & Strategy
 
-Key Responsibilities:
+- Founded and lead ShorePoint’s High-Performance Computing (HPC) Security practice, establishing service offerings aligned to federal mission environments across DOE, DoD, and civilian agencies.
+- Established initial HPC security service offerings and reference architectures aligned to federal mission environments, while independently sourcing and developing a qualified pipeline of five prospective customers and leading early-stage capture and solution development.
+- Host and organizer of HPC Security Technical Exchange (STX), with the third event drawing ~ 60 senior practitioners across government and national laboratories.
+- Invited speaker at SC25 Secure HPC (S-HPC) session, presenting outcomes from HPC STX and participating in panels on HPC security control overlays; co-organized Zero Trust Birds-of-a-Feather session.
 
-- Establishing and leading ShorePoint's HPC security practice to protect critical national assets.
-- Collaborating on the Continuous Diagnostics and Mitigation (CDM) data services program to enhance federal cybersecurity resilience.
-- Driving innovation in cybersecurity strategies to address emerging threats in AI, HPC, and cloud computing domains.​
+Capture & Growth Support
+
+- Served as senior technical SME supporting new business capture and proposal development.
+- Contributed as author and reviewer across ~5 competitive federal proposals within first 6 months.
+- Partnered with executive leadership and business development to shape technical strategy, solution positioning, and bid readiness for HPC security pursuits.
+
+Internal Research & Development
+
+- Founding member of ShorePoint’s IRAD AI Tiger Team, evaluating secure internal AI adoption and developing concepts for customer-facing AI security tooling.
+
+#### ↪ as Deputy Technical Lead on CDM Data Services contract (April 2025 – February 2026)
+
+- Deputy Technical Lead for CDM Data Services pipeline, overseeing daily technical execution of a ~25 engineer team, including delivering mission-critical federal data services.
+- Designed and implemented development best practices including image build and release processes for Python-based microservices across local and multiple AWS environments.
+- Led development of Elastic-based monitoring and analytics dashboards supporting multi-agency deployments using ES|QL, KQL, and Lens.
+- Established streamlined pull-request review and approval processes in both Bitbucket and GitHub to improve code quality and delivery velocity.
+- Leveraged AWS services including EC2, Secrets Manager, Inspector, and SSM to support secure deployment and operations of production microservices.
+- Applied Docker-based containerization for Python microservices, leveraging Taskfile and uv for build automation and environment management.
 
 ### Lawrence Livermore National Laboratory (June 2010 - April 2025)
 
@@ -37,9 +55,9 @@ Key Responsibilities:
 
 _Livermore Computing, September 2021 - April 2025_
 
-- Leads team of engineers focused on continuous monitoring of HPC environment, including monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
-- Identifies gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
-- Sets direction and vision of center wide improvements to automation, including modernizing developer workflows around secure DevOps practices.
+- Led and influenced direction of a diverse team of 5 engineers focused on continuous monitoring of HPC environment, including monitoring of system health and performance, security monitoring for malicious or undesirable activity, detection and response to issues that arise.
+- Identified gaps and areas for improvement in the overall security posture of Livermore Computing (LC) High Performance Computing (HPC) center.
+- Set direction and vision of center wide improvements to automation, including modernizing developer workflows around secure DevOps practices.
 - Responsible for defining, performing, and coordinating cyber assessment activities on all Livermore Computing (LC) production, infrastructure, and testbed systems.
 - Authored new DISA Security Technical Implementation Guide (STIG) for LLNL-developed ["TOSS" HPC operating system](https://hpc.llnl.gov/toss).
 
