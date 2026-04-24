@@ -26,8 +26,9 @@ _To leave things better than I found them, so that those around me believe they 
 Practice Leadership & Strategy
 
 - Founded and lead ShorePoint’s High-Performance Computing (HPC) Security practice, establishing service offerings aligned to federal mission environments across DOE, DoD, and civilian agencies.
-- Established initial HPC security service offerings and reference architectures aligned to federal mission environments, while independently sourcing and developing a qualified pipeline of five prospective customers and leading early-stage capture and solution development.
-- Host and organizer of HPC Security Technical Exchange (STX), with the third event drawing ~ 60 senior practitioners across government and national laboratories.
+- Established initial HPC security service offerings and reference architectures aligned to federal mission environments.
+- Independently sourced and developed a qualified pipeline of prospective customers and led early-stage capture and solution development.
+- Host and organizer of HPC Security Technical Exchange (STX), with the fourth event drawing ~ 80 senior practitioners across government and national laboratories.
 - Invited speaker at SC25 Secure HPC (S-HPC) session, presenting outcomes from HPC STX and participating in panels on HPC security control overlays; co-organized Zero Trust Birds-of-a-Feather session.
 
 Capture & Growth Support
